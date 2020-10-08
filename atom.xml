@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-29T18:23:46.039Z</updated>
+  <updated>2019-06-15T05:30:37.183Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,29 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/07/10/da-jian/kuai-su-she-zhi-ma-yun/"/>
-    <id>http://yoursite.com/2019/07/10/da-jian/kuai-su-she-zhi-ma-yun/</id>
-    <published>2019-07-10T02:53:15.151Z</published>
-    <updated>2019-03-29T18:23:46.039Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;快速设置— 如果你知道该怎么操作，直接使用下面的地址&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://gitee.com/zhangcheng0126/index.git&quot; target=&quot;_blank&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>php的文件命令.md</title>
@@ -65,6 +42,29 @@
     
     
       <category term="php" scheme="http://yoursite.com/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2019/06/12/da-jian/kuai-su-she-zhi-ma-yun/"/>
+    <id>http://yoursite.com/2019/06/12/da-jian/kuai-su-she-zhi-ma-yun/</id>
+    <published>2019-06-11T16:31:40.110Z</published>
+    <updated>2019-03-29T18:23:46.039Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;快速设置— 如果你知道该怎么操作，直接使用下面的地址&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gitee.com/zhangcheng0126/index.git&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
     
   </entry>
   

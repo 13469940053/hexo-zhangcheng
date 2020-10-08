@@ -4,8 +4,10 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaScript--&gt;Array类型, 无浪网、张成的博客、无风不起浪网、无浪博客">
-    <meta name="description" content="Array类型ECMAScript 数组与其他语言中的数组都是数据的有序列表，但与其他语言不同的是，ECMAScript 数组的每一项可以保存任何类型的数据。也就是说，第一个位置可以保存字符串，而第二个位置可以保存数值，第三个位置又可以保存">
+    <meta name="keywords" content="无浪网、张成的博客、无风不起浪网、无浪博客">
+    <meta name="description" content="快速设置— 如果你知道该怎么操作，直接使用下面的地址
+https://gitee.com/zhangcheng0126/index.git我们强烈建议所有的git仓库都有一个README, LICENSE, .gitignore文件
+Git">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +15,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>JavaScript--&gt;Array类型 | 张成的博客</title>
+    <title>张成的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -228,13 +230,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        JavaScript--&gt;Array类型
+                        
                     </div>
                 </div>
             </div>
@@ -343,25 +345,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/JavaScript/" target="_blank">
-                                <span class="chip bg-color">JavaScript</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fa fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/前端/" class="post-category" target="_blank">
-                                前端
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -369,21 +358,21 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2018-10-30
+                    2019-06-12
                 </div>
 
                 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        1k
+                        157
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        4 分
+                        1 分
                     </div>
                     
                 
@@ -399,107 +388,15 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="Array类型"><a href="#Array类型" class="headerlink" title="Array类型"></a>Array类型</h3><p>ECMAScript 数组与其他语言中的数组都是数据的有序列表，但与其他语言不同的是，ECMAScript 数组的每一项可以保存任何类型的数据。也就是说，第一个位置可以保存字符串，而第二个位置可以保存数值，第三个位置又可以保存对象。</p>
-<p>创建数组的基本方法有两种：</p>
-<ul>
-<li><p>使用 Array 构造函数</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Array</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token function">Array</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>             <span class="token comment" spellcheck="true">//可以省略 new 操作符</span>
-<span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Array</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>       <span class="token comment" spellcheck="true">//指定数组长度</span>
-<span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Array</span><span class="token punctuation">(</span><span class="token string">'red'</span><span class="token punctuation">,</span><span class="token string">'blue'</span><span class="token punctuation">,</span><span class="token string">'yellow'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
-<blockquote>
-<p><strong>PS：</strong> 传递一个值，并且这个值是数值的话，会创建该数值长度的数组，而不是长度为 1，值为该数值的数组。</p>
-</blockquote>
-</li>
-<li><p>使用数组字面量</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'red'</span><span class="token punctuation">,</span><span class="token string">'blue'</span><span class="token punctuation">,</span><span class="token string">'yellow'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-</code></pre>
-</li>
-</ul>
-<h4 id="2-2-1-数组长度"><a href="#2-2-1-数组长度" class="headerlink" title="2.2.1 数组长度"></a>2.2.1 数组长度</h4><p>获取数组长度用 <code>.length</code> 属性。</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'red'</span><span class="token punctuation">,</span><span class="token string">'blue'</span><span class="token punctuation">,</span><span class="token string">'yellow'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-<span class="token function">alert</span><span class="token punctuation">(</span>colors<span class="token punctuation">.</span>length<span class="token punctuation">)</span><span class="token punctuation">;</span>             <span class="token comment" spellcheck="true">//3</span>
-</code></pre>
-<p>值得注意的是 <code>.length</code> 属性并不是只读的。我们可以通过设置这个属性的值，从数组末尾删除或添加新项。</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'red'</span><span class="token punctuation">,</span><span class="token string">'blue'</span><span class="token punctuation">,</span><span class="token string">'yellow'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-colors<span class="token punctuation">.</span>length <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
-<span class="token function">alert</span><span class="token punctuation">(</span>colors<span class="token punctuation">)</span><span class="token punctuation">;</span>                    <span class="token comment" spellcheck="true">//'red','blue'</span>
-colors<span class="token punctuation">.</span>length <span class="token operator">=</span> <span class="token number">4</span><span class="token punctuation">;</span>
-<span class="token function">alert</span><span class="token punctuation">(</span>colors<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                 <span class="token comment" spellcheck="true">//undefined</span>
-</code></pre>
-<p>也可以通过下表的方式修改数组</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'red'</span><span class="token punctuation">,</span><span class="token string">'blue'</span><span class="token punctuation">,</span><span class="token string">'yellow'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-colors<span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'black'</span><span class="token punctuation">;</span>
-<span class="token function">alert</span><span class="token punctuation">(</span>colors<span class="token punctuation">)</span><span class="token punctuation">;</span>                    <span class="token comment" spellcheck="true">//red,blue,yellow,,,,,,,,black</span>
-</code></pre>
-<h4 id="2-2-2-检测数组"><a href="#2-2-2-检测数组" class="headerlink" title="2.2.2 检测数组"></a>2.2.2 检测数组</h4><p>确定某个对象是不是数组，使用 <code>Array.isArray()</code> 方法。</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'red'</span><span class="token punctuation">,</span><span class="token string">'blue'</span><span class="token punctuation">,</span><span class="token string">'yellow'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Array<span class="token punctuation">.</span><span class="token function">isArray</span><span class="token punctuation">(</span>colors<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment" spellcheck="true">//true</span>
-</code></pre>
-<h4 id="2-2-3-转换方法"><a href="#2-2-3-转换方法" class="headerlink" title="2.2.3 转换方法"></a>2.2.3 转换方法</h4><p>数字继承的 toLocaleString()、toString() 和 valueOf() 方法在默认情况下都会以逗号的字符串的形式返回数组项。</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'red'</span><span class="token punctuation">,</span><span class="token string">'blue'</span><span class="token punctuation">,</span><span class="token string">'yellow'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-<span class="token function">alert</span><span class="token punctuation">(</span>colors<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>         <span class="token comment" spellcheck="true">//'red,blue,yellow'</span>
-<span class="token function">alert</span><span class="token punctuation">(</span>colors<span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment" spellcheck="true">//'red,blue,yellow'</span>
-</code></pre>
-<p>使用 <code>join()</code> 方法则可以使用不同的分隔符来创建这个字符串</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'red'</span><span class="token punctuation">,</span><span class="token string">'blue'</span><span class="token punctuation">,</span><span class="token string">'yellow'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-<span class="token function">alert</span><span class="token punctuation">(</span>colors<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">'|'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment" spellcheck="true">//'red|blue|yellow'</span>
-<span class="token function">alert</span><span class="token punctuation">(</span>colors<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">'@'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment" spellcheck="true">//'red@blue@yellow'</span>
-</code></pre>
-<h4 id="2-2-4-栈方法和队列方法"><a href="#2-2-4-栈方法和队列方法" class="headerlink" title="2.2.4 栈方法和队列方法"></a>2.2.4 栈方法和队列方法</h4><p><strong>栈</strong> 是一种 LIFO （后进先出）的数据结构，最新添加的项最早被移除。栈方法有 <code>push()向末尾添加</code> 和 <code>pop()从末尾删除</code>。</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-colors<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'red'</span><span class="token punctuation">,</span><span class="token string">'blue'</span><span class="token punctuation">,</span><span class="token string">'yellow'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token function">alert</span><span class="token punctuation">(</span>colors<span class="token punctuation">)</span><span class="token punctuation">;</span>                    <span class="token comment" spellcheck="true">//red,blue,yellow</span>
+                <p>快速设置— 如果你知道该怎么操作，直接使用下面的地址</p>
+<p><a href="https://gitee.com/zhangcheng0126/index.git" target="_blank" rel="noopener">https://gitee.com/zhangcheng0126/index.git</a><br>我们强烈建议所有的git仓库都有一个README, LICENSE, .gitignore文件</p>
+<p>Git入门？查看 帮助 , Visual Studio / TortoiseGit / Eclipse / Xcode 下如何连接本站, 如何导入仓库</p>
+<p>简易的命令行入门教程:</p>
+<p>Git 全局设置:</p>
+<p>git config –global user.name “无风不起浪”<br>git config –global user.email “<a href="mailto:2508723631@qq.com" target="_blank" rel="noopener">2508723631@qq.com</a>“<br>创建 git 仓库:</p>
+<p>mkdir index<br>cd index<br>git init<br>touch README.md<br>git add README.md<br>git commit -m “first commit”<br>git remote add origin <a href="https://gitee.com/zhangcheng0126/index.git" target="_blank" rel="noopener">https://gitee.com/zhangcheng0126/index.git</a><br>git push -u origin master<br>已有仓库?</p>
+<p>cd existing_git_repo<br>git remote add origin <a href="https://gitee.com/zhangcheng0126/index.git" target="_blank" rel="noopener">https://gitee.com/zhangcheng0126/index.git</a><br>git push -u origin master</p>
 
-colors<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token function">alert</span><span class="token punctuation">(</span>colors<span class="token punctuation">)</span><span class="token punctuation">;</span>                   <span class="token comment" spellcheck="true">//red,blue</span>
-</code></pre>
-<p><strong>队列</strong> 的访问规则是 FIFO（先进先出），从队列的末尾添加项 push()，从队列的前端移除项 <code>shift()</code>。此外还有一个方法 <code>unshift()</code> 可以在数组前端添加任意个项。</p>
-<h4 id="重排序方法"><a href="#重排序方法" class="headerlink" title="重排序方法"></a>重排序方法</h4><p>数组中有两个直接用来重排序的方法：reserve() 和 sort()。<br><strong>reserve()</strong> 会反转数组项的顺序。</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> values <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-values<span class="token punctuation">.</span><span class="token function">reserve</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>values<span class="token punctuation">)</span><span class="token punctuation">;</span>              <span class="token comment" spellcheck="true">//5,4,3,2,1</span>
-</code></pre>
-<p><strong>sort()</strong> 先将数组项调用 toString() 方法，然后按从小到大排列。</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> values <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token number">23</span><span class="token punctuation">,</span><span class="token number">56</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-values<span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>values<span class="token punctuation">)</span><span class="token punctuation">;</span>              <span class="token comment" spellcheck="true">//0,1,10,23,5,56</span>
-</code></pre>
-<p>另外，sort() 还可以接收一个 <strong>比较函数</strong> 作为参数</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> values <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token number">23</span><span class="token punctuation">,</span><span class="token number">56</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-values<span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span>compare<span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>values<span class="token punctuation">)</span><span class="token punctuation">;</span>              <span class="token comment" spellcheck="true">//0,1,5,10,23,56</span>
-
-<span class="token keyword">function</span> <span class="token function">compare</span><span class="token punctuation">(</span>value1<span class="token punctuation">,</span> value2<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  <span class="token keyword">if</span> <span class="token punctuation">(</span>value1 <span class="token operator">&lt;</span> value2<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
-  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>value1 <span class="token operator">></span> value2<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
-  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre>
-<blockquote>
-<p><strong>PS：</strong> 比较函数接收两个参数，如果第一个参数应该位于第二个参数之前则返回一个负数，如果第一个参数应该位于第二个参数之后则返回一个整数，如果这两个参数相等则返回0。</p>
-</blockquote>
-<h4 id="操作方法"><a href="#操作方法" class="headerlink" title="操作方法"></a>操作方法</h4><p> <strong>concat()</strong> 基于当前数组中的所有项创建一个新数组。没有传递参数的情况下，只是返回当前数组的一个副本；如果传递参数将被添加到数组末尾。</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'red'</span><span class="token punctuation">,</span><span class="token string">'green'</span><span class="token punctuation">,</span><span class="token string">'blue'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-<span class="token keyword">var</span> colors2 <span class="token operator">=</span> colors<span class="token punctuation">.</span><span class="token function">concat</span><span class="token punctuation">(</span><span class="token string">'yellow'</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token string">'black'</span><span class="token punctuation">,</span><span class="token string">'brown'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>colors2<span class="token punctuation">)</span><span class="token punctuation">;</span>               <span class="token comment" spellcheck="true">//red,green,blue,yellow,black,brown</span>
-</code></pre>
-<p><strong>slice()</strong> 基于当前数组中的一个或多个项创建新数组。如果传递一个参数，返回从该参数到当前数组末尾的所有项；如果传递两个参数，则返回两者之间的项（不包括结束位置）</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'red'</span><span class="token punctuation">,</span><span class="token string">'green'</span><span class="token punctuation">,</span><span class="token string">'blue'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-<span class="token keyword">var</span> colors2 <span class="token operator">=</span> colors<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>colors2<span class="token punctuation">)</span><span class="token punctuation">;</span>               <span class="token comment" spellcheck="true">//green,blue</span>
-</code></pre>
-<h4 id="位置方法"><a href="#位置方法" class="headerlink" title="位置方法"></a>位置方法</h4><p><strong>indexOf()</strong> 和 <strong>lastIndexOf()</strong> 这两个方法都接收两个参数：要查找的项和查找的起始位置。返回要查找的项在数组中的位置。(一个正着找，一个倒着找)</p>
-<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> numbers <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-<span class="token function">alert</span><span class="token punctuation">(</span>numbers<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment" spellcheck="true">//3</span>
-<span class="token function">alert</span><span class="token punctuation">(</span>numbers<span class="token punctuation">.</span><span class="token function">lastIndexOf</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>      <span class="token comment" spellcheck="true">//5</span>
-</code></pre>
-<h4 id="迭代方法"><a href="#迭代方法" class="headerlink" title="迭代方法"></a>迭代方法</h4><h4 id="归并方法"><a href="#归并方法" class="headerlink" title="归并方法"></a>归并方法</h4>
             </div>
             <hr>
 
@@ -646,7 +543,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
                     </span>
                     <a href="http://yoursite.com" class="b-link-green">张成的博客</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2018/10/30/qian-duan/javascript/2-yin-yong-lei-xing/2-2-array-lei-xing/" class="b-link-green">JavaScript--&gt;Array类型</a>
+                    <a href="/2019/06/12/da-jian/kuai-su-she-zhi-ma-yun/" class="b-link-green"></a>
                 </p>
             </div>
         </div>
@@ -930,21 +827,23 @@ console<span class="token punctuation">.</span><span class="token function">log<
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2018/10/30/qian-duan/javascript/2-yin-yong-lei-xing/2-3-date-lei-xing/">
+                <a href="/2019/06/15/hou-duan/php/php-de-wen-jian-ming-ling/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="JavaScript-->Date类型">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="php的文件命令.md">
                         
-                        <span class="card-title">JavaScript-->Date类型</span>
+                        <span class="card-title">php的文件命令.md</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">Date类型ECMAScript 中的 Date 类型使用 UTC 国际协调时间，用从 1970年 1月 1日零时开始经过的毫秒数来保存日期，可以精确到 1970/1/1 之前或之后的 1亿年。
-2.3.1 创建一个日期对象var now </div>
+                    <div class="summary">` PHP
+&lt;?php
+  $info = ob_get_contents(); // 这个是这个页面的所有信息
+  $filectime = filectime(&quot;index.html&quot;); // 这个index</div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-10-30
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-06-15
                         </span>
                         <span class="publish-author">
                             
@@ -961,8 +860,8 @@ console<span class="token punctuation">.</span><span class="token function">log<
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/JavaScript/" target="_blank">
-                        <span class="chip bg-color">JavaScript</span>
+                    <a href="/tags/php/" target="_blank">
+                        <span class="chip bg-color">php</span>
                     </a>
                     
                 </div>
@@ -976,30 +875,29 @@ console<span class="token punctuation">.</span><span class="token function">log<
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2018/10/30/qian-duan/javascript/2-yin-yong-lei-xing/2-5-function-lei-xing/">
+                <a href="/2019/05/17/da-jian/mian-fei-da-jian-wang-zhan-de-xu-ni-kong-jian-zhu-ji/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="JavaScript-->Function类型">
+                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="网站建设">
                         
-                        <span class="card-title">JavaScript-->Function类型</span>
+                        <span class="card-title">网站建设</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">Function类型函数实际上是对象，每个函数都是 Function 类型的实例，函数名实际上也是一个指向函数对象的指针。
-2.5.1 函数声明有两种方式：函数声明 和 函数表达式
-function sum(num1, num2) {
-  </div>
+                    <div class="summary">2019盘点可以用的免费虚拟空间大全
+收集不易，请多多支持。希望大家可以用得到。
+点蜜空间 http://my.10g.me/cart.php番茄互联 https://www.fqidc.cn/index.php/buy/index/10/</div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-10-30
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-05-17
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/前端/" class="post-category" target="_blank">
-                                    前端
+                            <a href="/categories/网站服务器与虚拟主机/" class="post-category" target="_blank">
+                                    网站服务器与虚拟主机
                                 </a>
                             
                             
@@ -1009,8 +907,8 @@ function sum(num1, num2) {
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/JavaScript/" target="_blank">
-                        <span class="chip bg-color">JavaScript</span>
+                    <a href="/tags/虚拟主机/" target="_blank">
+                        <span class="chip bg-color">虚拟主机</span>
                     </a>
                     
                 </div>
