@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>张成的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="无浪网、张成的博客、无浪博客、无风不起浪网由张成初期学习前端知识所做，仅供学习和资料储存使用！张成留言">
+<meta name="keywords" content="无浪网、张成的博客、无风不起浪网、无浪博客">
+<meta property="og:type" content="website">
+<meta property="og:title" content="张成的博客">
+<meta property="og:url" content="http://yoursite.com/page/15/index.html">
+<meta property="og:site_name" content="张成的博客">
+<meta property="og:description" content="无浪网、张成的博客、无浪博客、无风不起浪网由张成初期学习前端知识所做，仅供学习和资料储存使用！张成留言">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="张成的博客">
+<meta name="twitter:description" content="无浪网、张成的博客、无浪博客、无风不起浪网由张成初期学习前端知识所做，仅供学习和资料储存使用！张成留言">
+  
+    <link rel="alternate" href="/atom.xml" title="张成的博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">张成的博客</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">张成的博客</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">主页</a>
+        
+          <a class="main-nav-link" href="/archives">分类</a>
+        
+          <a class="main-nav-link" href="/about">关于我</a>
+        
+          <a class="main-nav-link" href="/webcode">留言板</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-软件工具/Linux/常用Bash命令整理之查看文件和目录" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/10/09/ruan-jian-gong-ju/linux/chang-yong-bash-ming-ling-zheng-li-zhi-cha-kan-wen-jian-he-mu-lu/" class="article-date">
+  <time datetime="2018-10-09T14:45:00.000Z" itemprop="datePublished">2018-10-09</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/软件工具/">软件工具</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/10/09/ruan-jian-gong-ju/linux/chang-yong-bash-ming-ling-zheng-li-zhi-cha-kan-wen-jian-he-mu-lu/">常用Bash命令整理之查看文件和目录</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="1-ls-列出文件名和目录"><a href="#1-ls-列出文件名和目录" class="headerlink" title="1. ls - 列出文件名和目录"></a>1. ls - 列出文件名和目录</h2><p><code>ls</code>命令是<code>Linux</code>中最常用的命令之一，其作用就是列出文件名和目录。在命令行提示符下，直接输入<code>ls</code>命令，不带任何选项，将列出当前目录下所有文件和目录，但不会显示详细的信息，比如，文件类型、大小、修改日期和时间、权限等。</p>
+<p>以下便是<code>ls</code>命令及其选项的作用说明：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 仅列出当前目录下所有文件和目录</span>
+<span class="token function">ls</span>
+
+<span class="token comment" spellcheck="true"># 每行显示一条记录，每条记录包括文件类型、大小、修改日期和时间、权限等</span>
+<span class="token function">ls</span> -l
+
+<span class="token comment" spellcheck="true"># 将文件大小显示符合人类阅读习惯的格式</span>
+<span class="token function">ls</span> -lh
+
+<span class="token comment" spellcheck="true"># 将使用不同的特殊字符归类不同的文件类型</span>
+<span class="token function">ls</span> -F
+
+<span class="token comment" spellcheck="true"># 以长列表格式列出某个目录的信息</span>
+<span class="token function">ls</span> -ld /var/log
+
+<span class="token comment" spellcheck="true"># 将递归地列出子目录的内容</span>
+<span class="token function">ls</span> -R /etc/sysconfig/
+
+<span class="token comment" spellcheck="true"># 以长列表格式按文件或目录的修改时间倒序地列出文件和目录</span>
+<span class="token function">ls</span> -ltr
+
+<span class="token comment" spellcheck="true"># 以长列表格式按文件大小顺序列出文件和目录</span>
+<span class="token function">ls</span> -ls
+
+<span class="token comment" spellcheck="true"># 列出包括隐藏文件或目录在内的所有文件和目录，包括“.”（当前目录）和“..”（父目录）</span>
+<span class="token function">ls</span> -a
+
+<span class="token comment" spellcheck="true"># 列出包括隐藏文件或目录在内的所有文件和目录，不包括“.”（当前目录）和“..”（父目录）</span>
+<span class="token function">ls</span> -A
+
+输出的内容类似于-l选项，指示显示uid和gid，替代显示所有者和用户组
+<span class="token function">ls</span> -n
+</code></pre>
+<h2 id="2-cat-连接显示文件内容"><a href="#2-cat-连接显示文件内容" class="headerlink" title="2. cat - 连接显示文件内容"></a>2. cat - 连接显示文件内容</h2><p><code>cat</code> 命令也是Linux系统中最常用的命令之一。<code>cat</code>命令让我们可以看看文件的内容、连接文件、创建一个或多个文件和重定向输出到终端或文件。</p>
+<p><code>cat</code>命令的语法如下所示：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">cat</span> <span class="token punctuation">[</span>OPTION<span class="token punctuation">]</span> <span class="token punctuation">[</span>FILE<span class="token punctuation">]</span><span class="token punctuation">..</span>.
+</code></pre>
+<p><code>cat</code>常用命令如下：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 使用 cat 命令查看文件 /etc/group 的内容</span>
+<span class="token function">cat</span> /etc/group
+
+<span class="token comment" spellcheck="true"># 显示多个文件的内容</span>
+<span class="token function">cat</span> /etc/redhat-release /etc/issue
+
+<span class="token comment" spellcheck="true"># -n 选项，可以显示文件内容的行号</span>
+<span class="token function">cat</span> -n /etc/fstab
+
+<span class="token comment" spellcheck="true"># -b 选项和 -n 选项类似，但只标识非空白行的行号</span>
+<span class="token function">cat</span> -b /etc/fstab
+
+<span class="token comment" spellcheck="true"># -e 选项，将在每一行的结尾显示“$”字符</span>
+<span class="token function">cat</span> -e /etc/fstab
+</code></pre>
+<blockquote>
+<p>当你只输入 cat 命令，而没有任何参数时，它只是接收标准输入的内容并在标准输出中显示。所以你在输入一行内容并回车后，会在接下来的一行显示相同的内容。你也可以重定向标准输出到一个新文件。</p>
+</blockquote>
+<h2 id="3-less、more-分屏显示文件"><a href="#3-less、more-分屏显示文件" class="headerlink" title="3.less、more - 分屏显示文件"></a>3.less、more - 分屏显示文件</h2><p><code>more</code>命令在你使用小的xterm窗口时，或是想不使用文本编辑器而只是简单地阅读一个文件时是很有用的。more命令是一个用于一次翻阅一整屏文件的过滤器。</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 查看一个文件，自动清空屏幕并显示文件开头部分</span>
+<span class="token function">more</span> /etc/inittab
+
+<span class="token comment" spellcheck="true"># 指定一次显示num行</span>
+<span class="token function">more</span> -num /etc/inittab
+</code></pre>
+<p>与<code>more</code>命令相比，我个人更喜欢<code>less</code>命令来查看文件。<code>less</code>命令与<code>more</code>命令类似，但<code>less</code>命令向前和向后翻页都支持，而且<code>less</code>命令不需要在查看前加载整个文件，即<code>less</code>命令查看文件更快速。</p>
+<p><code>less</code>常用命令参数如下：</p>
+<pre class=" language-bash"><code class="language-bash">-b  <span class="token operator">&lt;</span>缓冲区大小<span class="token operator">></span> 设置缓冲区的大小
+-e  当文件显示结束后，自动离开
+-f  强迫打开特殊文件，例如外围设备代号、目录和二进制文件
+-g  只标志最后搜索的关键词
+-i  忽略搜索时的大小写
+-m  显示类似more命令的百分比
+-N  显示每行的行号
+-o  <span class="token operator">&lt;</span>文件名<span class="token operator">></span> 将less 输出的内容在指定文件中保存起来
+-Q  不使用警告音
+-s  显示连续空行为一行
+-S  行过长时间将超出部分舍弃
+-x  <span class="token operator">&lt;</span>数字<span class="token operator">></span> 将“tab”键显示为规定的数字空格
+/字符串：向下搜索“字符串”的功能
+?字符串：向上搜索“字符串”的功能
+n： 重复前一个搜索（与 / 或 ? 有关）
+N： 反向重复前一个搜索（与 / 或 ? 有关）
+b  向后翻一页
+d  向后翻半页
+h  显示帮助界面
+Q  退出less 命令
+u  向前滚动半页
+y  向前滚动一行
+空格键 滚动一行
+回车键 滚动一页
+<span class="token punctuation">[</span>pagedown<span class="token punctuation">]</span>： 向下翻动一页
+<span class="token punctuation">[</span>pageup<span class="token punctuation">]</span>：   向上翻动一页
+</code></pre>
+<h2 id="4-head-显示文件头部"><a href="#4-head-显示文件头部" class="headerlink" title="4.head - 显示文件头部"></a>4.head - 显示文件头部</h2><p><code>head</code>命令用于打印指定输入的开头部分内容。默认情况下，打印每个指定输入的前10行内容。</p>
+<p>使用<code>-n</code>选项可以指定打印文件的前N行：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 指定打印文件的前5行</span>
+<span class="token function">head</span> -n 5 /etc/inittab
+（或）head -5 /etc/inittab
+
+<span class="token comment" spellcheck="true"># 打印文件的前N个字节的数据</span>
+<span class="token function">head</span> -c 10 /etc/inittab
+</code></pre>
+<h2 id="5-tail-显示文件尾部"><a href="#5-tail-显示文件尾部" class="headerlink" title="5.tail - 显示文件尾部"></a>5.tail - 显示文件尾部</h2><p><code>tail</code>命令和<code>head</code>命令相反，它打印指定输入的结尾部分的内容。默认情况下，它打印指定输入的最后10行内容。</p>
+<p>使用<code>-n</code>选项可以指定打印文件的最后N行：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 指定打印文件的后10行</span>
+<span class="token function">tail</span> -n 10 /etc/inittab
+<span class="token function">tail</span> -10 /etc/inittab
+
+<span class="token comment" spellcheck="true"># 即时打印文件中新写入的行</span>
+<span class="token function">tail</span> -f /var/log/messages
+
+<span class="token comment" spellcheck="true"># --retry选项表示持续尝试打开某个文件，当你想打开一个稍后才会创建或即使不可用的文件</span>
+<span class="token function">tail</span> -f /tmp/debug.log --retry
+</code></pre>
+<h2 id="6-file-查看文件类型"><a href="#6-file-查看文件类型" class="headerlink" title="6.file - 查看文件类型"></a>6.file - 查看文件类型</h2><p><code>file</code>命令用于接收一个文件作为参数并执行某些测试，已确定正确的文件类型。</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 查看文件类型</span>
+<span class="token function">file</span> /etc/inittab
+
+<span class="token comment" spellcheck="true"># 可以MIME类型的格式显示文件类型的信息</span>
+<span class="token function">file</span> -i  /etc/inittab
+
+<span class="token comment" spellcheck="true"># 使用-N 选项，输出的队列可以以在文件名之后无空白填充的形式显示</span>
+<span class="token function">file</span> -N *
+</code></pre>
+<h2 id="7-wc-查看文件统计信息"><a href="#7-wc-查看文件统计信息" class="headerlink" title="7.wc - 查看文件统计信息"></a>7.wc - 查看文件统计信息</h2><p><code>wc</code>命令用于查看文件的行数、单词数和字符数等信息。语法类似如下所示：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">wc</span> filename
+X Y Z /etc/inittab
+</code></pre>
+<p>其中X表示行数，Y表示单词数，Z表示字节数，filename表示文件名。</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># -l选项，可以只统计文件的行数信息</span>
+<span class="token function">wc</span> -l /etc/inittab
+
+<span class="token comment" spellcheck="true"># -w选项，可以只统计文件的单词数信息</span>
+<span class="token function">wc</span> -w /etc/inittab
+
+<span class="token comment" spellcheck="true"># -c选项，可以只统计文件的字节数信息</span>
+<span class="token function">wc</span> -c /etc/inittab
+
+<span class="token comment" spellcheck="true"># -L选项，可以只统计文件中最长的行的长度</span>
+<span class="token function">wc</span> -L /etc/inittab
+</code></pre>
+<h2 id="8-find-查找文件或目录"><a href="#8-find-查找文件或目录" class="headerlink" title="8.find - 查找文件或目录"></a>8.find - 查找文件或目录</h2><p><code>find</code>命令用于根据你指定的参数搜索和定位文件和目录的列表。<code>find</code>命令可以在多种情况下使用，比如你可以通过权限、用户、用户组、文件类型、日期、大小和其他可能的条件来查找文件。</p>
+<p><code>find</code>命令常用使用和说明如下：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 查找指定目录下的某个文件</span>
+<span class="token function">find</span> /etc/ -name inittab
+
+<span class="token comment" spellcheck="true"># 在当前目录下查找名称为 inittab 的文件</span>
+<span class="token function">find</span> <span class="token keyword">.</span> -name inittab
+
+<span class="token comment" spellcheck="true"># 在当前目录下，文件不区分大小写是example的所有文件</span>
+<span class="token function">find</span> <span class="token keyword">.</span> -iname example
+
+<span class="token comment" spellcheck="true"># 找出当前目录下所有以 sh 结尾的文件</span>
+<span class="token function">find</span> <span class="token keyword">.</span> -type f -name <span class="token string">"*.sh"</span>
+
+<span class="token comment" spellcheck="true"># 找出当前目录下，文件权限是 777 的所有文件</span>
+<span class="token function">find</span> <span class="token keyword">.</span> -type f -perm 777
+
+<span class="token comment" spellcheck="true"># 找出当前目录下，文件权限不是 777 的所有文件</span>
+<span class="token function">find</span> <span class="token keyword">.</span> -type f <span class="token operator">!</span> -perm 777
+
+<span class="token comment" spellcheck="true"># 找出当前目录下所有只读文件</span>
+<span class="token function">find</span> <span class="token keyword">.</span> -type f <span class="token operator">!</span> -perm /a+w
+
+<span class="token comment" spellcheck="true"># 找出你帐号主目录下的所有可执行文件</span>
+<span class="token function">find</span> ~ -type f -perm /a+w
+
+<span class="token comment" spellcheck="true"># 找出 /tmp 目录下的.log文件并将其删除：</span>
+<span class="token function">find</span> /tmp/ -type f -name <span class="token string">"*.log"</span> -exec <span class="token function">rm</span> -f <span class="token punctuation">{</span><span class="token punctuation">}</span> \<span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true"># 找出当前目录下的所有空文件</span>
+<span class="token function">find</span> <span class="token keyword">.</span> -type f -empty
+
+<span class="token comment" spellcheck="true"># 找出当前目录下的所有空目录</span>
+<span class="token function">find</span> <span class="token keyword">.</span> -type d -empty
+
+<span class="token comment" spellcheck="true"># 找出 /tmp 目录下的所有隐藏文件</span>
+<span class="token function">find</span> /tmp/ -type f -name <span class="token string">".*"</span>
+
+<span class="token comment" spellcheck="true"># 找出 /tmp 目录下，所有者是 root 的文件和目录</span>
+<span class="token function">find</span> /tmp/ -user root
+
+<span class="token comment" spellcheck="true"># 找出 /tmp 目录下，用户组是 developer 的文件和目录</span>
+<span class="token function">find</span> /tmp/ -group root
+
+<span class="token comment" spellcheck="true"># 找出你账号的主目录下，3 天前修改的文件</span>
+<span class="token function">find</span> ~ -type f -mtime 3
+
+<span class="token comment" spellcheck="true"># 找出你账号的主目录下，30 天以前修改的所有文件</span>
+<span class="token function">find</span> ~ -type f -mtime +30
+
+<span class="token comment" spellcheck="true"># 找出你账号的主目录下，3 天以内修改的所有文件</span>
+<span class="token function">find</span> ~ -type f -mtime -3
+
+<span class="token comment" spellcheck="true"># 找出你账号的主目录下，30 天以前，60 天以内修改的所有文件</span>
+<span class="token function">find</span> ~ -type f -mtime +30 -mtime -60
+
+<span class="token comment" spellcheck="true"># 找出 /etc 目录下，一小时以内变更过的文件</span>
+<span class="token function">find</span> /etc -type f -cmin -60
+
+<span class="token comment" spellcheck="true"># 找出 /etc 目录下，一小时以内访问过的文件</span>
+<span class="token function">find</span> /etc -type f -amin -60
+
+<span class="token comment" spellcheck="true"># 找出你账号主目录下，大小是50MB的所有文件</span>
+<span class="token function">find</span> ~ -type f -size 50MB
+
+<span class="token comment" spellcheck="true"># 找出你账号主目录下，大于50MB小于100MB的所有文件</span>
+<span class="token function">find</span> ~ -type f -size +50MB -size -100MB
+
+<span class="token comment" spellcheck="true"># 找出你账号主目录下，大于100MB的文件并将其删除</span>
+<span class="token function">find</span> ~ -type f -size +100MB -exec <span class="token function">rm</span> -rf <span class="token punctuation">{</span><span class="token punctuation">}</span> \<span class="token punctuation">;</span>
+</code></pre>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/10/09/ruan-jian-gong-ju/linux/chang-yong-bash-ming-ling-zheng-li-zhi-cha-kan-wen-jian-he-mu-lu/" data-id="ckg0roi9x00cy0sjub9cov1ep" class="article-share-link">分享</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-软件工具/Git/Git知识点整理" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/09/24/ruan-jian-gong-ju/git/git-zhi-shi-dian-zheng-li/" class="article-date">
+  <time datetime="2018-09-24T13:50:00.000Z" itemprop="datePublished">2018-09-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/软件工具/">软件工具</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/09/24/ruan-jian-gong-ju/git/git-zhi-shi-dian-zheng-li/">Git知识点整理</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="1-Git基本概念。"><a href="#1-Git基本概念。" class="headerlink" title="1. Git基本概念。"></a>1. Git基本概念。</h2><ul>
+<li><code>repository</code></li>
+<li><code>config</code></li>
+<li><code>init</code></li>
+<li><code>clone</code></li>
+<li><code>fetch</code></li>
+<li><code>pull</code></li>
+<li><code>commit</code></li>
+<li><code>push</code></li>
+<li><code>branch</code></li>
+<li><code>head</code></li>
+<li><code>tag</code></li>
+<li><code>merge</code></li>
+<li><code>conflict</code></li>
+<li><code>diff</code></li>
+<li><code>log</code></li>
+<li><code>show</code></li>
+<li><code>status</code></li>
+</ul>
+<h2 id="2-Git工作空间和文件状态"><a href="#2-Git工作空间和文件状态" class="headerlink" title="2. Git工作空间和文件状态"></a>2. Git工作空间和文件状态</h2><h3 id="1-工作空间"><a href="#1-工作空间" class="headerlink" title="(1).工作空间"></a>(1).工作空间</h3><p><img src="http://blog.chinaunix.net/attachment/201402/19/10415985_139279770639pM.jpg" alt="Git工作空间"></p>
+<p>左侧为工作区，右侧为版本库。</p>
+<ul>
+<li>工作区（<code>Working Directory</code>） 就是在电脑里能看到的目录，比如learngit文件夹就是一个工作区。</li>
+<li>版本库（<code>Repository</code>）工作区有一个隐藏目录<code>.git</code>，是Git的版本库。</li>
+</ul>
+<p>在版本库中标记为<code>index</code>的区域为暂存区，标记为<code>master</code>的是Git为我们自动创建的第一个分支，代表的是目录树。此时<code>HEAD</code>实际是指向<code>master</code>分支的一个“游标”，所以图示的命令中出现HEAD的地方可以用<code>master</code>来替换。图中的objects标识的区域为git的对象库，实际位于<code>.git/objects</code>目录下。</p>
+<ul>
+<li>当对工作区修改（或新增）的文件执行<code>git add</code>命令时，暂存区的目录树会被更新，同时工作区修改（或新增）的文件内容会被写入到对象库中的一个新的对象中，而该对象的id被记录在暂存区的文件索引中。</li>
+<li>当执行提交操作<code>git commit</code>时，暂存区的目录树会写到版本库（对象库）中，master分支会做相应的更新，即master最新指向的目录树就是提交时原暂存区的目录树。</li>
+<li>当执行<code>git reset HEAD</code>命令时，暂存区的目录树会被重写，会被master分支指向的目录树所替换，但是工作区不受影响。</li>
+<li>当执行<code>git rm --cached</code>命令时，会直接从暂存区删除文件，工作区则不做出改变。</li>
+<li>当执行<code>git checkout .</code>或<code>git checkout --</code> 命令时，会用暂存区全部的文件或指定的文件替换工作区的文件。这个操作很危险，会清楚工作区中未添加到暂存区的改动。</li>
+<li>当执行<code>git checkout HEAD .</code>或<code>git checkout HEAD</code>命令时，会用HEAD指向的master分支中的全部或部分文件替换暂存区和工作区中的文件。这个命令也是极度危险的。因为不但会清楚工作区中未提交的改动，也会清楚暂存区中未提交的改动。</li>
+</ul>
+<h3 id="1-文件状态"><a href="#1-文件状态" class="headerlink" title="(1).文件状态"></a>(1).文件状态</h3><p>Git 有三种状态，你的文件可能处于其中之一：<strong>已提交(<code>committed</code>)</strong>、<strong>已修改(<code>modified</code>)</strong>和<strong>已暂存(<code>staged</code>)</strong>。</p>
+<h2 id="3-Git配置系统级、全局、当前仓库用户名、邮箱的命令"><a href="#3-Git配置系统级、全局、当前仓库用户名、邮箱的命令" class="headerlink" title="3. Git配置系统级、全局、当前仓库用户名、邮箱的命令"></a>3. Git配置系统级、全局、当前仓库用户名、邮箱的命令</h2><p>系统级、全局、当前仓库选项分别是:仓库-system、-global、-local(或默认不填)</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> config --global user.name <span class="token string">"Jerry Mouse"</span>
+<span class="token function">git</span> config --global user.email <span class="token string">"jerry@yiibai.com"</span>
+</code></pre>
+<p>列出Git设置</p>
+<pre class=" language-bash"><code class="language-bash">
+<span class="token function">git</span> config --list
+<span class="token function">git</span> config -l
+</code></pre>
+<h2 id="4-Git-fetch和pull的区别"><a href="#4-Git-fetch和pull的区别" class="headerlink" title="4. Git fetch和pull的区别"></a>4. Git fetch和pull的区别</h2><ul>
+<li><code>git fetch</code>：相当于是从远程获取最新版本到本地，不会自动merge.</li>
+<li><code>git pull</code>：相当于是从远程获取最新版本并merge到本地.</li>
+</ul>
+<h3 id="1-git-fetch示例："><a href="#1-git-fetch示例：" class="headerlink" title="(1). git fetch示例："></a>(1). git fetch示例：</h3><pre class=" language-bash"><code class="language-bash">Git fetch origin master
+<span class="token function">git</span> log -p master<span class="token punctuation">..</span>origin/master
+<span class="token function">git</span> merge origin/master
+</code></pre>
+<p>以上命令的含义：</p>
+<ul>
+<li>首先从远程的<code>origin</code>的<code>master</code>主分支下载最新的版本到<code>origin/master</code>分支上</li>
+<li>然后比较本地的<code>master</code>分支和<code>origin/master</code>分支的差别</li>
+<li>最后进行合并</li>
+<li>上述过程其实可以用以下更清晰的方式来进行：</li>
+</ul>
+<h3 id="1-git-pull示例："><a href="#1-git-pull示例：" class="headerlink" title="(1). git pull示例："></a>(1). git pull示例：</h3><pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> pull origin master
+</code></pre>
+<p>上述命令其实相当于<code>git fetch</code>和<code>git merge</code>。在实际使用中，<code>git fetch</code>更安全一些，因为在merge前，我们可以查看更新情况，然后再决定是否合并。</p>
+<h2 id="5-Git-reset和revert的却别"><a href="#5-Git-reset和revert的却别" class="headerlink" title="5. Git reset和revert的却别"></a>5. Git reset和revert的却别</h2><ul>
+<li><code>git revert</code>是用一次新的commit来回滚之前的commit，<code>git reset</code>是直接删除指定的commit。 </li>
+<li>在回滚这一操作上看，效果差不多。但是在日后继续merge以前的老版本时有区别。因为<code>git revert</code>是用一次逆向的commit“中和”之前的提交，因此日后合并老的branch时，导致这部分改变不会再次出现，但是<code>git reset</code>是之间把某些commit在某个branch上删除，因而和老的branch再次merge时，这些被回滚的commit应该还会被引入。</li>
+<li><code>git reset</code>是把HEAD向后移动了一下，而<code>git revert</code>是HEAD继续前进，只是新的commit的内容和要revert的内容正好相反，能够抵消要被revert的内容。</li>
+<li>git revert与git reset最大的不同是，git revert 仅仅是撤销某次提交。</li>
+</ul>
+<p>另外，说一下<code>git revert</code>， <code>git reset –hard</code>和 <code>–soft</code>的区别</p>
+<ul>
+<li><code>git reset –mixed id</code>: 是将git的HEAD变了（也就是提交记录变了），但文件并没有改变，（也就是working tree并没有改变）。</li>
+<li><code>git reset –soft id</code>: 实际上，是<code>git reset –mixed id</code>后，又做了一次<code>git add</code>。</li>
+<li><code>git reset –herd id</code>: 是将git的HEAD变了，文件也变了。</li>
+</ul>
+<h2 id="6-Git-merge和reabse的相同点和不同点"><a href="#6-Git-merge和reabse的相同点和不同点" class="headerlink" title="6. Git merge和reabse的相同点和不同点"></a>6. Git merge和reabse的相同点和不同点</h2><p><code>merge</code>是合并的意思，<code>rebase</code>是复位基底的意思，相同点都是用来合并分支的。</p>
+<p><img src="http://images2015.cnblogs.com/blog/759200/201608/759200-20160806092734215-279978821.png" alt="merge和rebase"></p>
+<p>不同点:</p>
+<ul>
+<li><code>merge</code>操作会生成一个新的节点，之前的提交分开显示。而<code>rebase</code>操作不会生成新的节点，是将两个分支融合成一个线性的提交。</li>
+<li>解决冲突时。merge操作遇到冲突的时候，当前merge不能继续进行下去。手动修改冲突内容后，add 修改，commit就可以了。而<code>rebase</code>操作的话，会中断rebase,同时会提示去解决冲突。解决冲突后,将修改add后执行<code>git rebase –continue</code>继续操作，或者<code>git rebase –skip</code>忽略冲突。</li>
+<li><code>git pull</code>和<code>git pull --rebase</code>区别：<code>git pull</code>做了两个操作分别是”获取”和”合并”。所以加了rebase就是以rebase的方式进行合并分支，默认为merge。</li>
+</ul>
+<p><strong>总结</strong>：选择 merge 还是 rebase？</p>
+<ul>
+<li>merge 是一个合并操作，会将两个分支的修改合并在一起，默认操作的情况下会提交合并中修改的内容</li>
+<li>merge 的提交历史忠实地记录了实际发生过什么，关注点在真实的提交历史上面</li>
+<li>rebase 并没有进行合并操作，只是提取了当前分支的修改，将其复制在了目标分支的最新提交后面</li>
+<li>rebase 的提交历史反映了项目过程中发生了什么，关注点在开发过程上面</li>
+<li>merge 与 rebase 都是非常强大的分支整合命令，没有优劣之分，使用哪一个应由项目和团队的开发需求决定</li>
+<li>merge 和 rebase 还有很多强大的选项，可以使用 git help <command> 查看</li>
+</ul>
+<h2 id="7-Git-stash是什么？它的相关使用方式命令"><a href="#7-Git-stash是什么？它的相关使用方式命令" class="headerlink" title="7. Git stash是什么？它的相关使用方式命令"></a>7. Git stash是什么？它的相关使用方式命令</h2><ul>
+<li>git stash: 备份当前的工作区的内容，从最近的一次提交中读取相关内容，让工作区保证和上次提交的内容一致。同时，将当前的工作区内容保存到Git栈中。</li>
+<li>git stash pop: 从Git栈中读取最近一次保存的内容，恢复工作区的相关内容。由于可能存在多个Stash的内容，所以用栈来管理，pop会从最近的一个stash中读取内容并恢复。</li>
+<li>git stash pop –index stash@{0}: 恢复编号为0的进度的工作区和暂存区。</li>
+<li>git stash apply stash@{1} 以将你指定版本号为stash@{1}的工作取出来</li>
+<li>git stash drop[<stash>] 删除某一个进度，默认删除最新进度</stash></li>
+<li>git stash list: 显示Git栈内的所有备份，可以利用这个列表来决定从那个地方恢复。</li>
+<li>git stash clear: 清空Git栈。此时使用gitg等图形化工具会发现，原来stash的哪些节点都消失了</li>
+</ul>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 恢复工作进度</span>
+<span class="token function">git</span> stash pop <span class="token punctuation">[</span>--index<span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token operator">&lt;</span>stash<span class="token operator">></span><span class="token punctuation">]</span>
+--index 参数：不仅恢复工作区，还恢复暂存区
+<span class="token operator">&lt;</span>stash<span class="token operator">></span> 指定恢复某一个具体进度。如果没有这个参数，默认恢复最新进度
+
+<span class="token comment" spellcheck="true"># 这是git stash保存进度的完整命令形式</span>
+<span class="token function">git</span> stash <span class="token punctuation">[</span>save message<span class="token punctuation">]</span> <span class="token punctuation">[</span>-k<span class="token operator">|</span>--no-keep-index<span class="token punctuation">]</span> <span class="token punctuation">[</span>--patch<span class="token punctuation">]</span>
+-k和--no-keep-index指定保存进度后，是否重置暂存区
+--patch 会显示工作区和HEAD的差异,通过编辑差异文件，排除不需要保存的内容。和git add -p命令类似
+
+使用save可以对进度添加备注
+<span class="token comment" spellcheck="true"># git stash save "这是保存的进度"</span>
+</code></pre>
+<h2 id="8-Git只从暂存区删除，从工作空间删除的命令分别是什么"><a href="#8-Git只从暂存区删除，从工作空间删除的命令分别是什么" class="headerlink" title="8. Git只从暂存区删除，从工作空间删除的命令分别是什么?"></a>8. Git只从暂存区删除，从工作空间删除的命令分别是什么?</h2><pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> <span class="token function">rm</span> --cached
+
+<span class="token function">git</span> <span class="token function">rm</span>
+<span class="token function">git</span> commit
+</code></pre>
+<h2 id="9-Git标签的使用"><a href="#9-Git标签的使用" class="headerlink" title="9. Git标签的使用"></a>9. Git标签的使用</h2><pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 列出现有的标签</span>
+<span class="token function">git</span> tag
+
+<span class="token comment" spellcheck="true"># 打标签</span>
+<span class="token function">git</span> tag -a v1.01 -m <span class="token string">"Relase version 1.01"</span>
+
+<span class="token comment" spellcheck="true"># 查看相应标签的版本信息</span>
+<span class="token function">git</span> show v1.4
+</code></pre>
+<ul>
+<li>-a 选项,创建一个含附注类型的标签</li>
+<li>-m 选项,指定了对应的标签说明</li>
+</ul>
+<h2 id="9-Git分支的使用"><a href="#9-Git分支的使用" class="headerlink" title="9. Git分支的使用"></a>9. Git分支的使用</h2><pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 查看本地分支</span>
+<span class="token function">git</span> branch
+
+<span class="token comment" spellcheck="true"># 查看远程分支</span>
+<span class="token function">git</span> branch -r
+
+<span class="token comment" spellcheck="true"># 创建本地分支(注意新分支创建后不会自动切换为当前分支)</span>
+<span class="token function">git</span> branch <span class="token punctuation">[</span>name<span class="token punctuation">]</span>
+
+<span class="token comment" spellcheck="true"># 切换分支</span>
+<span class="token function">git</span> checkout <span class="token punctuation">[</span>name<span class="token punctuation">]</span>
+
+<span class="token comment" spellcheck="true"># 创建新分支并立即切换到新分支</span>
+<span class="token function">git</span> checkout -b <span class="token punctuation">[</span>name<span class="token punctuation">]</span>
+
+<span class="token comment" spellcheck="true"># 强制删除一个分支</span>
+<span class="token function">git</span> branch -D <span class="token punctuation">[</span>name<span class="token punctuation">]</span>
+
+<span class="token comment" spellcheck="true"># 合并分支(将名称为[name]的分支与当前分支合并)</span>
+<span class="token function">git</span> merge <span class="token punctuation">[</span>name<span class="token punctuation">]</span>
+
+<span class="token comment" spellcheck="true"># 查看各个分支最后提交信息</span>
+<span class="token function">git</span> br -v
+
+<span class="token comment" spellcheck="true"># 查看已经被合并到当前分支的分支</span>
+<span class="token function">git</span> br --merged
+
+<span class="token comment" spellcheck="true"># 查看尚未被合并到当前分支的分支</span>
+<span class="token function">git</span> br --no-merged
+</code></pre>
+<h2 id="10-介绍Git冲突处理经验，以及merge和rebase中的ours和theirs的差别。"><a href="#10-介绍Git冲突处理经验，以及merge和rebase中的ours和theirs的差别。" class="headerlink" title="10. 介绍Git冲突处理经验，以及merge和rebase中的ours和theirs的差别。"></a>10. 介绍Git冲突处理经验，以及merge和rebase中的ours和theirs的差别。</h2><p>merge和rebase对于ours和theirs的定义是完全相反的。在merge时，ours指代的是当前分支，theirs代表需要被合并的分支。而在rebase过程中，ours指向了修改参考分支，theirs却是当前分支。因为rebase 隐含了一个<code>git checkout upstream</code>的过程，将<code>HEAD</code>从local分支变成了upstream分支。git会在rebase结束后撤销这个改变，但它已经不可避免地影响了冲突的状态，使rebase中ours和theirs的定义与merge 截然相反。因此，在使用ours与theirs时请格外小心。</p>
+<h2 id="11-Git远程操作相关"><a href="#11-Git远程操作相关" class="headerlink" title="11. Git远程操作相关"></a>11. Git远程操作相关</h2><h3 id="1-clone"><a href="#1-clone" class="headerlink" title="(1). clone"></a>(1). clone</h3><blockquote>
+<p>git clone &lt;版本库的网址&gt;<br>git clone &lt;版本库的网址&gt; &lt;本地目录名&gt;</p>
+</blockquote>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 克隆jQuery的版本库</span>
+ <span class="token function">git</span> clone https://github.com/jquery/jquery.git
+
+ <span class="token function">git</span> clone -o jQuery https://github.com/jquery/jquery.git
+</code></pre>
+<h3 id="2-remote"><a href="#2-remote" class="headerlink" title="(2). remote"></a>(2). remote</h3><pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 列出所有远程主机</span>
+<span class="token function">git</span> remote
+
+<span class="token comment" spellcheck="true"># 使用-v选项，可以参看远程主机的网址</span>
+<span class="token function">git</span> remote -v
+
+<span class="token comment" spellcheck="true"># 可以查看该主机的详细信息</span>
+<span class="token function">git</span> remote show <span class="token operator">&lt;</span>主机名<span class="token operator">></span>
+
+<span class="token comment" spellcheck="true"># 添加远程主机</span>
+<span class="token function">git</span> remote add <span class="token operator">&lt;</span>主机名<span class="token operator">></span> <span class="token operator">&lt;</span>网址<span class="token operator">></span>
+
+<span class="token comment" spellcheck="true"># 删除远程主机</span>
+<span class="token function">git</span> remote <span class="token function">rm</span> <span class="token operator">&lt;</span>主机名<span class="token operator">></span>
+
+<span class="token comment" spellcheck="true"># 修改远程主机名称</span>
+<span class="token function">git</span> remote <span class="token function">rename</span> <span class="token operator">&lt;</span>原主机名<span class="token operator">></span> <span class="token operator">&lt;</span>新主机名<span class="token operator">></span>
+</code></pre>
+<h3 id="3-fetch"><a href="#3-fetch" class="headerlink" title="(3). fetch"></a>(3). fetch</h3><pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 取回所有分支(branch)的更新到本地</span>
+<span class="token function">git</span> fetch <span class="token operator">&lt;</span>远程主机名<span class="token operator">></span>
+
+<span class="token comment" spellcheck="true"># 取回某的特定分支的更新</span>
+<span class="token function">git</span> fetch <span class="token operator">&lt;</span>远程主机名<span class="token operator">></span> <span class="token operator">&lt;</span>分支名<span class="token operator">></span>
+
+<span class="token comment" spellcheck="true"># 取回origin主机的master分支的更新</span>
+<span class="token function">git</span> fetch origin master
+
+<span class="token comment" spellcheck="true"># 所取回的更新，在本地主机上要用”远程主机名/分支名”的形式读取。比如origin主机的master，就要用origin/master读取。可以使用git merge命令或者git rebase命令，在本地分支上合并远程分支</span>
+<span class="token function">git</span> merge origin/master
+<span class="token function">git</span> rebase origin/master
+</code></pre>
+<h3 id="4-pull"><a href="#4-pull" class="headerlink" title="(4). pull"></a>(4). pull</h3><blockquote>
+<p>git pull &lt;远程主机名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt;</p>
+</blockquote>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 取回origin主机的next分支，与本地的master分支合并</span>
+<span class="token function">git</span> pull origin next:master
+
+<span class="token comment" spellcheck="true"># 如果远程分支是与当前分支合并，则冒号后面的部分可以省略。</span>
+<span class="token function">git</span> pull origin next
+
+<span class="token comment" spellcheck="true"># 上面的命令实质上等同于先做git fetch，再做git merge。</span>
+<span class="token function">git</span> fetch origin
+<span class="token function">git</span> merge origin/next
+
+<span class="token comment" spellcheck="true"># 合并需要采用rebase模式</span>
+<span class="token function">git</span> pull --rebase <span class="token operator">&lt;</span>远程主机名<span class="token operator">></span> <span class="token operator">&lt;</span>远程分支名<span class="token operator">></span>:<span class="token operator">&lt;</span>本地分支名<span class="token operator">></span>
+</code></pre>
+<h3 id="5-push"><a href="#5-push" class="headerlink" title="(5). push"></a>(5). push</h3><blockquote>
+<p>git push &lt;远程主机名&gt; &lt;本地分支名&gt;:&lt;远程分支名&gt;</p>
+</blockquote>
+<p><strong>注意</strong>:分支推送顺序的写法是”&lt;来源地&gt;:&lt;目的地&gt;”，所以git pull是”&lt;远程分支&gt;:&lt;本地分支&gt;”，而git push是”&lt;本地分支&gt;:&lt;远程分支&gt;”。</p>
+<ul>
+<li>如果省略远程分支名，则表示将本地分支推送与之存在”追踪关系”的远程分支(通常两者同名)，如果该远程分支不存在，则会被新建。</li>
+<li>如果省略本地分支名，则表示删除指定的远程分支，因为这等同于推送一个空的本地分支到远程分支。</li>
+</ul>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 将本地的master分支推送到origin主机的master分支。如果后者不存在，则会被新建</span>
+<span class="token function">git</span> push origin master
+
+<span class="token comment" spellcheck="true"># 省略了本地分支，以下等同，删除origin主机的master分支</span>
+<span class="token function">git</span> push origin :master
+<span class="token function">git</span> push origin --delete master
+
+<span class="token comment" spellcheck="true"># 如果当前分支与远程分支之间存在追踪关系，则本地分支和远程分支都可以省略</span>
+<span class="token function">git</span> push origin
+
+<span class="token comment" spellcheck="true"># 如果当前分支只有一个追踪分支，那么主机名都可以省略。</span>
+<span class="token function">git</span> push
+
+<span class="token comment" spellcheck="true"># 如果当前分支与多个主机存在追踪关系，则可以使用-u选项指定一个默认主机，这样后面就可以不加任何参数使用git push</span>
+<span class="token function">git</span> push -u origin master
+
+<span class="token comment" spellcheck="true"># 不管是否存在对应的远程分支，将本地的所有分支都推送到远程主机</span>
+<span class="token function">git</span> push --all origin
+
+<span class="token comment" spellcheck="true"># 强制推送</span>
+<span class="token function">git</span> push --force origin
+
+<span class="token comment" spellcheck="true"># git push不会推送标签(tag)，除非使用–tags选项</span>
+<span class="token function">git</span> push origin --tags
+</code></pre>
+<h2 id="12-Git-Flow使用简介"><a href="#12-Git-Flow使用简介" class="headerlink" title="12. Git Flow使用简介"></a>12. Git Flow使用简介</h2><p>就像代码需要代码规范一样，代码管理同样需要一个清晰的流程和规范。三种广泛使用的工作流程：</p>
+<ul>
+<li>Git flow</li>
+<li>Github flow</li>
+<li>Gitlab flow</li>
+</ul>
+<p>三种工作流程，有一个共同点：都采用”功能驱动式开发”（Feature-driven development，简称FDD）。它指的是，需求是开发的起点，先有需求再有功能分支（feature branch）或者补丁分支（hotfix branch）。完成开发后，该分支就合并到主分支，然后被删除。最早诞生、并得到广泛采用的一种工作流程，就是<a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank" rel="noopener">Git flow</a>。</p>
+<p>它最主要的特点有两个。首先，项目存在两个长期分支，分别是：主分支master、开发分支develop。其次，项目存在三种短期分支，分别是：功能分支（feature branch）、补丁分支（hotfix branch）、预发分支（release branch），一旦完成开发，它们就会被合并进develop或master，然后被删除。</p>
+<h3 id="1-Git-Flow流程图"><a href="#1-Git-Flow流程图" class="headerlink" title="(1). Git Flow流程图"></a>(1). Git Flow流程图</h3><p><img src="http://static.blinkfox.com/ghost/imagegit_flow.png" alt="Git Flow流程图"></p>
+<h3 id="2-Git-Flow常用的分支"><a href="#2-Git-Flow常用的分支" class="headerlink" title="(2). Git Flow常用的分支"></a>(2). Git Flow常用的分支</h3><ul>
+<li><code>Production</code>分支。也就是我们经常使用的Master分支，这个分支最近发布到生产环境的代码，最近发布的Release， 这个分支只能从其他分支合并，不能在这个分支直接修改。</li>
+<li><code>Develop</code>分支。这个分支是我们是我们的主开发分支，包含所有要发布到下一个Release的代码，这个主要合并与其他分支，比如Feature分支。</li>
+<li><code>Feature</code>分支。这个分支主要是用来开发一个新的功能，一旦开发完成，我们合并回Develop分支进入下一个Release。</li>
+<li><code>Release</code>分支。当你需要一个发布一个新Release的时候，我们基于Develop分支创建一个Release分支，完成Release后，我们合并到Master和Develop分支。</li>
+<li><code>Hotfix</code>分支。当我们在Production发现新的Bug时候，我们需要创建一个Hotfix, 完成Hotfix后，我们合并回Master和Develop分支，所以Hotfix的改动会进入下一个Release。</li>
+</ul>
+<h3 id="3-Git-Flow代码示例"><a href="#3-Git-Flow代码示例" class="headerlink" title="(3). Git Flow代码示例"></a>(3). Git Flow代码示例</h3><h4 id="a-创建develop分支"><a href="#a-创建develop分支" class="headerlink" title="a. 创建develop分支"></a>a. 创建develop分支</h4><pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> branch develop
+<span class="token function">git</span> push -u origin develop
+</code></pre>
+<h4 id="b-开始新Feature开发"><a href="#b-开始新Feature开发" class="headerlink" title="b. 开始新Feature开发"></a>b. 开始新Feature开发</h4><pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> checkout -b some-feature develop
+<span class="token comment" spellcheck="true"># Optionally, push branch to origin:</span>
+<span class="token function">git</span> push -u origin some-feature
+
+<span class="token comment" spellcheck="true"># 做一些改动</span>
+<span class="token function">git</span> status
+<span class="token function">git</span> add some-file
+<span class="token function">git</span> commit
+</code></pre>
+<h4 id="c-完成Feature"><a href="#c-完成Feature" class="headerlink" title="c. 完成Feature"></a>c. 完成Feature</h4><pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> pull origin develop
+<span class="token function">git</span> checkout develop
+<span class="token function">git</span> merge --no-ff some-feature
+<span class="token function">git</span> push origin develop
+
+<span class="token function">git</span> branch -d some-feature
+
+<span class="token comment" spellcheck="true"># If you pushed branch to origin:</span>
+<span class="token function">git</span> push origin --delete some-feature
+</code></pre>
+<h4 id="d-开始Relase"><a href="#d-开始Relase" class="headerlink" title="d. 开始Relase"></a>d. 开始Relase</h4><pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> checkout -b release-0.1.0 develop
+
+<span class="token comment" spellcheck="true"># Optional: Bump version number, commit</span>
+<span class="token comment" spellcheck="true"># Prepare release, commit</span>
+</code></pre>
+<h4 id="e-完成Release"><a href="#e-完成Release" class="headerlink" title="e. 完成Release"></a>e. 完成Release</h4><pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> checkout master
+<span class="token function">git</span> merge --no-ff release-0.1.0
+<span class="token function">git</span> push
+
+<span class="token function">git</span> checkout develop
+<span class="token function">git</span> merge --no-ff release-0.1.0
+<span class="token function">git</span> push
+
+<span class="token function">git</span> branch -d release-0.1.0
+
+<span class="token comment" spellcheck="true"># If you pushed branch to origin:</span>
+<span class="token function">git</span> push origin --delete release-0.1.0   
+
+<span class="token function">git</span> tag -a v0.1.0 master
+<span class="token function">git</span> push --tags
+</code></pre>
+<h4 id="f-开始Hotfix"><a href="#f-开始Hotfix" class="headerlink" title="f. 开始Hotfix"></a>f. 开始Hotfix</h4><pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> checkout -b hotfix-0.1.1 master
+</code></pre>
+<h4 id="g-完成Hotfix"><a href="#g-完成Hotfix" class="headerlink" title="g. 完成Hotfix"></a>g. 完成Hotfix</h4><pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> checkout master
+<span class="token function">git</span> merge --no-ff hotfix-0.1.1
+<span class="token function">git</span> push
+
+<span class="token function">git</span> checkout develop
+<span class="token function">git</span> merge --no-ff hotfix-0.1.1
+<span class="token function">git</span> push
+
+<span class="token function">git</span> branch -d hotfix-0.1.1
+
+<span class="token function">git</span> tag -a v0.1.1 master
+<span class="token function">git</span> push --tags
+</code></pre>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/09/24/ruan-jian-gong-ju/git/git-zhi-shi-dian-zheng-li/" data-id="ckg0roi9p00co0sjuwja6wrjd" class="article-share-link">分享</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/">Git</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+  <nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/page/14/">&laquo; 上一页</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/13/">13</a><a class="page-number" href="/page/14/">14</a><span class="page-number current">15</span>
+  </nav>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Markdown/">Markdown</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/html/">html</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端/">前端</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/搭建/">搭建</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/网站服务器与虚拟主机/">网站服务器与虚拟主机</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/设计/">设计</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/软件工具/">软件工具</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/AI/">AI</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CPU缓存/">CPU缓存</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Css/">Css</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Css3/">Css3</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/DevOps/">DevOps</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/">Git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitLab-CI/">GitLab CI</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Jenkins/">Jenkins</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/">Markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Vue/">Vue</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/css3/">css3</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/html/">html</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/html5/">html5</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js/">js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/php/">php</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ps/">ps</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/虚拟主机/">虚拟主机</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/设置/">设置</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/设计类/">设计类</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/AI/" style="font-size: 10px;">AI</a> <a href="/tags/CPU缓存/" style="font-size: 10px;">CPU缓存</a> <a href="/tags/Css/" style="font-size: 10px;">Css</a> <a href="/tags/Css3/" style="font-size: 10px;">Css3</a> <a href="/tags/DevOps/" style="font-size: 10px;">DevOps</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/GitLab-CI/" style="font-size: 10px;">GitLab CI</a> <a href="/tags/Jenkins/" style="font-size: 10px;">Jenkins</a> <a href="/tags/Linux/" style="font-size: 17.5px;">Linux</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/Vue/" style="font-size: 10px;">Vue</a> <a href="/tags/css3/" style="font-size: 15px;">css3</a> <a href="/tags/html/" style="font-size: 17.5px;">html</a> <a href="/tags/html5/" style="font-size: 17.5px;">html5</a> <a href="/tags/js/" style="font-size: 10px;">js</a> <a href="/tags/php/" style="font-size: 12.5px;">php</a> <a href="/tags/ps/" style="font-size: 15px;">ps</a> <a href="/tags/虚拟主机/" style="font-size: 10px;">虚拟主机</a> <a href="/tags/设置/" style="font-size: 20px;">设置</a> <a href="/tags/设计类/" style="font-size: 17.5px;">设计类</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">十月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">六月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">五月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">四月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">三月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">十一月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">十月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">九月 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/10/08/da-jian/kuai-su-she-zhi-ma-yun/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/15/hou-duan/php/php-de-wen-jian-ming-ling/">php的文件命令.md</a>
+          </li>
+        
+          <li>
+            <a href="/2019/05/17/da-jian/mian-fei-da-jian-wang-zhan-de-xu-ni-kong-jian-zhu-ji/">网站建设</a>
+          </li>
+        
+          <li>
+            <a href="/2019/04/17/ruan-jian-she-ji/ai/ai-ji-chu-shi-pin/">AI基础视频课程</a>
+          </li>
+        
+          <li>
+            <a href="/2019/04/08/qian-duan/html5-css3/css-ji-chu-ji-xuan-ze-qi-chang-yong-shu-xing/">css基础及选择器常用属性.md</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy;2018- 2020 Zhangcheng<br>
+      Powered by <a href="/" target="_blank">张成的博客 </a>
+    </div>
+  </div>
+
+
+
+</footer>
+ <!-- 音乐播放器
+    2019-03-16 13:12:12
+    无风不起浪_你的歌单分享「我喜欢的音乐」: http://music.163.com/playlist/2531704188/604884741/?userid=604884741 (来自@网易云音乐)
+    -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+    <style>.aplayer-list-index,.aplayer-list-title,.aplayer-list-author,.aplayer .aplayer-lrc p{background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.85, #ff2), color-stop(1, #f22));
+        color: transparent;
+        -webkit-background-clip: text;
+        cursor: pointer;}
+        .aplayer .aplayer-lrc p {
+        font-size:16px;
+        transition: all .5s ease-out;
+        opacity: .4;
+        overflow: hidden;
+    
+    } </style>
+    <div class="aplayer" data-id="2531704188" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.9"></div>
+    <script>var meting_api='http://api.mizore.cn/meting/api.php?server=:server&type=:type&id=:id'</script>
+    <script src="http://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+    
+    
+     <!-- 版权信息 -->
+    <script>
+       if(window.console&&window.console.log){
+                //Unicode编码转换工bai具转化du成中文汉字 http://unicode.cha001.com/
+        console.log(" %c \u5f20\u6210\u7684\u535a\u5ba2--->>> %c http://13469940053.github.io  \n", "color: #000000;font-size:50px; background: #abcdef; padding:5px 5px; border-radius:5px; border-radius: 5px;", "background: #fadfa3; padding:5px 0;font-size:50px;");
+        console.log('\u4f5c\u8005\uff1a\u65e0\u98ce\u4e0d\u8d77\u6d6a\u0040\u4f60\uff0c\u0051\u0051\uff1a\u0032\u0033\u0035\u0038\u0039\u0033\u0035\u0035\u0037\u0039');
+        console.log("%c\u539f\u521b\u4f5c\u54c1\u8bf7\u5c0a\u91cd\u4f5c\u8005\u52b3\u52a8\u6210\u679c\uff0c\u52ff\u5012\u5356\u5206\u4eab\uff0c\u8c22\u8c22\uff01","color:red");
+    }
+    </script>
+    
+    
+    
+    <script>
+        // <!--百度收录自动推送-->
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    //360自动提交连接-->
+     (function(){
+            var src = (document.location.protocol == 'http:') ? 'http://js.passport.qihucdn.com/11.0.1.js?d4d9f371abe1a3935500b5aaf98e676d':'https://jspassport.ssl.qhimg.com/11.0.1.js?d4d9f371abe1a3935500b5aaf98e676d';
+            document.write('<script src=' + src + ' id='sozz'><\/script>');
+            })();
+      //360自动提交连接-->
+    (function(){
+       var src = document.location.protocol +'//js.passport.qihucdn.com/11.0.1.js?0cafbe109ab248eb7be06d7f99c4009f';
+       document.write('<script src="' + src + '" id="sozz"><\/script>');
+    })();
+    
+        // <!--百度收录自动推送-->
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    
+    //百度推送优化版
+        (function(){
+            var canonicalURL, curProtocol;
+            //Get the <link> tag
+            var x=document.getElementsByTagName("link");
+            //Find the last canonical URL
+            if(x.length > 0){
+                for (i=0;i<x.length;i++){
+                    if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){
+                        canonicalURL=x[i].href;
+                    }
+                }
+            }
+            //Get protocol
+            if (!canonicalURL){
+                curProtocol = window.location.protocol.split(':')[0];
+            }
+            else{
+                curProtocol = canonicalURL.split(':')[0];
+            }
+            //Get current URL if the canonical URL does not exist
+            if (!canonicalURL) canonicalURL = window.location.href;
+            //Assign script content. Replace current URL with the canonical URL
+            !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=canonicalURL,t=document.referrer;if(!e.test(r)){var n=(String(curProtocol).toLowerCase() === 'https')?"https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif":"//api.share.baidu.com/s.gif";t?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var i=new Image;i.src=n}}(window);})();
+    
+    
+    </script>
+    
+    
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">主页</a>
+  
+    <a href="/archives" class="mobile-nav-link">分类</a>
+  
+    <a href="/about" class="mobile-nav-link">关于我</a>
+  
+    <a href="/webcode" class="mobile-nav-link">留言板</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>

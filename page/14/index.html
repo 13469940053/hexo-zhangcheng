@@ -1,505 +1,652 @@
-<!DOCTYPE HTML>
-<html lang="zh-CN">
-
-
+<!DOCTYPE html>
+<html>
 <head><meta name="generator" content="Hexo 3.8.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="无浪网、张成的博客、无风不起浪网、无浪博客">
-    <meta name="description" content="张成的博客">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="renderer" content="webkit|ie-stand|ie-comp">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>张成的博客</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
+  <meta charset="utf-8">
+  
 
-    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
-    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/matery.css">
-    <link rel="stylesheet" type="text/css" href="/css/my.css">
-    <style type="text/css">
-        
-    </style>
-
-    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+  
+  <title>张成的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="无浪网、张成的博客、无浪博客、无风不起浪网由张成初期学习前端知识所做，仅供学习和资料储存使用！张成留言">
+<meta name="keywords" content="无浪网、张成的博客、无风不起浪网、无浪博客">
+<meta property="og:type" content="website">
+<meta property="og:title" content="张成的博客">
+<meta property="og:url" content="http://yoursite.com/page/14/index.html">
+<meta property="og:site_name" content="张成的博客">
+<meta property="og:description" content="无浪网、张成的博客、无浪博客、无风不起浪网由张成初期学习前端知识所做，仅供学习和资料储存使用！张成留言">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="张成的博客">
+<meta name="twitter:description" content="无浪网、张成的博客、无浪博客、无风不起浪网由张成初期学习前端知识所做，仅供学习和资料储存使用！张成留言">
+  
+    <link rel="alternate" href="/atom.xml" title="张成的博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
 </head>
-
-
+</html>
 <body>
-
-<header class="navbar-fixed">
-    <nav id="headNav" class="bg-color nav-transparent">
-        <div id="navContainer" class="nav-wrapper container">
-            <div class="brand-logo">
-                <a href="/" class="waves-effect waves-light">
-                    
-                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
-                    
-                    <span class="logo-span">张成的博客</span>
-                </a>
-            </div>
-            
-
-<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
-<ul class="right">
-    
-    <li class="hide-on-med-and-down">
-        <a href="/" class="waves-effect waves-light">
-            
-            <i class="fa fa-home"></i>
-            
-            <span>首页</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/tags" class="waves-effect waves-light">
-            
-            <i class="fa fa-tags"></i>
-            
-            <span>标签</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/categories" class="waves-effect waves-light">
-            
-            <i class="fa fa-bookmark"></i>
-            
-            <span>分类</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/archives" class="waves-effect waves-light">
-            
-            <i class="fa fa-archive"></i>
-            
-            <span>总览</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/about" class="waves-effect waves-light">
-            
-            <i class="fa fa-user-circle-o"></i>
-            
-            <span>关于我</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/friends" class="waves-effect waves-light">
-            
-            <i class="fa fa-address-book"></i>
-            
-            <span>网络课堂</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/webcode" class="waves-effect waves-light">
-            
-            <i class="fa fa-user-md"></i>
-            
-            <span>资料总览</span>
-        </a>
-    </li>
-    
-    <li>
-        <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-            <i id="searchIcon" class="fa fa-search" title="搜索"></i>
-        </a>
-    </li>
-</ul>
-
-<div id="mobile-nav" class="side-nav sidenav">
-
-    <div class="mobile-head bg-color">
-        
-        <img src="/medias/logo.png" class="logo-img circle responsive-img">
-        
-        <div class="logo-name">张成的博客</div>
-        <div class="logo-desc">
-            
-            无浪网、张成的博客、无浪博客、无风不起浪网由张成初期学习前端知识所做，仅供学习和资料储存使用！张成留言
-            
-        </div>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">张成的博客</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">张成的博客</a>
+        </h2>
+      
     </div>
-
-    
-
-    <ul class="menu-list mobile-menu-list">
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
         
-        <li>
-            <a href="/" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-home"></i>
-                
-                首页
-            </a>
-        </li>
+          <a class="main-nav-link" href="/">主页</a>
         
-        <li>
-            <a href="/tags" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-tags"></i>
-                
-                标签
-            </a>
-        </li>
+          <a class="main-nav-link" href="/archives">分类</a>
         
-        <li>
-            <a href="/categories" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-bookmark"></i>
-                
-                分类
-            </a>
-        </li>
+          <a class="main-nav-link" href="/about">关于我</a>
         
-        <li>
-            <a href="/archives" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-archive"></i>
-                
-                总览
-            </a>
-        </li>
+          <a class="main-nav-link" href="/webcode">留言板</a>
         
-        <li>
-            <a href="/about" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-user-circle-o"></i>
-                
-                关于我
-            </a>
-        </li>
+      </nav>
+      <nav id="sub-nav">
         
-        <li>
-            <a href="/friends" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-address-book"></i>
-                
-                网络课堂
-            </a>
-        </li>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <li>
-            <a href="/webcode" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-user-md"></i>
-                
-                资料总览
-            </a>
-        </li>
-        
-        
-    </ul>
-</div>
-
-        </div>
-
-        
-    </nav>
-
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
 </header>
-
-
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                    张成的博客
-                
-            </div>
-
-
-            <div class="description center-align">
-                
-                    无浪网、张成的博客、无浪博客、无风不起浪网由张成初期学习前端知识所做，仅供学习和资料储存使用！张成留言
-                
-            </div>
-        </div>
-    </div>
-</div>
-<script>
-// 每天切换 banner 图.  Switch banner image every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
-</script>
-    </div>
-</div>
-
-
-<main class="content">
-
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-软件工具/Linux/常用Bash命令整理之文本处理" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/10/11/ruan-jian-gong-ju/linux/chang-yong-bash-ming-ling-zheng-li-zhi-wen-ben-chu-li/" class="article-date">
+  <time datetime="2018-10-11T14:05:00.000Z" itemprop="datePublished">2018-10-11</time>
+</a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/软件工具/">软件工具</a>
+  </div>
 
+  </div>
+  <div class="article-inner">
     
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/10/11/ruan-jian-gong-ju/linux/chang-yong-bash-ming-ling-zheng-li-zhi-wen-ben-chu-li/">常用Bash命令整理之文本处理</a>
+    </h1>
+  
 
-    <!-- 所有文章卡片 -->
-    <article id="articles" class="container articles">
-        <div class="row article-row">
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2016/10/18/20162017/2016-10-18-xcode-debug-da-quan/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Xcode Debug 大全">
-                            
-                            <span class="card-title">Xcode Debug 大全</span>
-                        </div>
-                    </a>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="1-sort-文本排序"><a href="#1-sort-文本排序" class="headerlink" title="1. sort - 文本排序"></a>1. sort - 文本排序</h2><p><code>sort</code>命令用于将文本文件的行排序。默认情况下，<code>sort</code>命令是按照字符串的字母顺序排序。</p>
+<p>sort 的常用命令如下：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 将文本内容按字母顺序排序</span>
+<span class="token function">sort</span> example.txt
 
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                前言
-BUG,简单来说就是程序运行结果与预期的不同，下面来说说Xcode中的DEBUG方法
-参考博文
+<span class="token comment" spellcheck="true"># 使用 -u 选项，移除所有重复行后排序</span>
+<span class="token function">sort</span> -u example.txt
 
-断点调试
-普通断点
-全局断点
-条件断
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2016-10-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                BY
-                                
-                            </span>
-                        </div>
-                    </div>
+<span class="token comment" spellcheck="true"># 使用 -n 选项，将令数字按数值的大小排序</span>
+<span class="token function">sort</span> -n example.txt
 
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/iOS/" target="_blank">
-                            <span class="chip bg-color">iOS</span>
-                        </a>
-                        
-                        <a href="/tags/开发技巧/" target="_blank">
-                            <span class="chip bg-color">开发技巧</span>
-                        </a>
-                        
-                        <a href="/tags/Debug/" target="_blank">
-                            <span class="chip bg-color">Debug</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2016/10/10/20162017/2016-10-10-ios-shou-shi-yu-bian-xing/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="iOS手势与变形">
-                            
-                            <span class="card-title">iOS手势与变形</span>
-                        </div>
-                    </a>
+<span class="token comment" spellcheck="true"># 使用 -r 选项，以倒序方式排序</span>
+<span class="token function">sort</span> -n -r example.txt
 
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                
-手势在用户交互中有着举足轻重的作用，这篇文字简单的介绍了iOS中的手势，并通过手势对控件进行变形处理。
+<span class="token comment" spellcheck="true"># 同时将 file1、file2 的内容排序</span>
+<span class="token function">sort</span> file1 file2
+</code></pre>
+<h2 id="2-uniq-文本去重"><a href="#2-uniq-文本去重" class="headerlink" title="2.uniq - 文本去重"></a>2.uniq - 文本去重</h2><p><code>uniq</code>命令用于移除或发现文件中重复的条目。</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 它将移除文件中重复的行并显示单一行</span>
+<span class="token function">uniq</span> example.txt
 
-手势iOS手势分为下面这几种：
+<span class="token comment" spellcheck="true"># 可以统计重复行出现的次数</span>
+<span class="token function">uniq</span> -c example.txt
 
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2016-10-10
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                BY
-                                
-                            </span>
-                        </div>
-                    </div>
+<span class="token comment" spellcheck="true"># 使用 -d 选项，只显示文件中有重复的行并只显示一次</span>
+<span class="token function">uniq</span> -d example.txt
 
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/iOS/" target="_blank">
-                            <span class="chip bg-color">iOS</span>
-                        </a>
-                        
-                        <a href="/tags/iOS开发基础/" target="_blank">
-                            <span class="chip bg-color">iOS开发基础</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-        </div>
-    </article>
+<span class="token comment" spellcheck="true"># 使用 -D 选项，显示文件中所有重复的行</span>
+<span class="token function">uniq</span> -D example.txt
 
-</main>
+<span class="token comment" spellcheck="true"># 使用 -u 选项，只显示文件中不重复的行</span>
+<span class="token function">uniq</span> -u example.txt
 
+<span class="token comment" spellcheck="true"># 使用 -w 选项，限制 uniq 命令只比较每行的前 3 个字符是否重复</span>
+<span class="token function">uniq</span> -w 3 example.txt
 
-<div class="container paging">
-    <div class="row">
-        <div class="col s6 m4 l4">
-            
-            <a href="/page/13/" class="left btn-floating btn-large waves-effect waves-light bg-color">
-                <i class="fa fa-angle-left"></i>
-            </a>
-            
-        </div>
-        <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">14 / 14</div>
-        </div>
-        <div class="col s6 m4 l4">
-            
-            <a class="right btn-floating btn-large disabled">
-                <i class="fa fa-angle-right"></i>
-            </a>
-            
-        </div>
+<span class="token comment" spellcheck="true"># 使用 -s 选项，避免 uniq 命令比较每行的前 3 个字符，只比较后面的字符是否重复</span>
+<span class="token function">uniq</span> -s 3 example.txt
+
+<span class="token comment" spellcheck="true"># 使用 -f 选项，避免 uniq 命令比较第一列的内容，只比较后面的字符是否重复</span>
+<span class="token function">uniq</span> -f 1 example.txt
+</code></pre>
+<h2 id="3-tr-替换或删除字符"><a href="#3-tr-替换或删除字符" class="headerlink" title="3.tr - 替换或删除字符"></a>3.tr - 替换或删除字符</h2><p><code>tr</code>命令主要用于删除文件中控制字符或进行字符转换。使用<code>tr</code>时要转换两个字符串：字符串 1 用于查询，字符串 2 用于处理各种转换。<code>tr</code>刚执行时，字符串 1 中的字符被映射到字符串 2 中的字符，然后转换操作开始。</p>
+<p><code>tr</code>命令的语法如下所示：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">tr</span> <span class="token punctuation">[</span>OPTION<span class="token punctuation">]</span><span class="token punctuation">..</span>. SET1 <span class="token punctuation">[</span>SET2<span class="token punctuation">]</span>
+</code></pre>
+<p>常用命令示例：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 若要将大括号转换为小括号</span>
+<span class="token function">tr</span> <span class="token string">'{}'</span> <span class="token string">'()'</span> <span class="token operator">&lt;</span> textfile <span class="token operator">></span> newfile
+
+<span class="token comment" spellcheck="true"># 若要将大括号转换成方括号</span>
+<span class="token function">tr</span> <span class="token string">'{}'</span> <span class="token string">'\[]'</span> <span class="token operator">&lt;</span> textfile <span class="token operator">></span> newfile
+
+<span class="token comment" spellcheck="true"># 若要将小写字符转换成大写，请输入：</span>
+<span class="token function">tr</span> <span class="token string">'a-z'</span> <span class="token string">'A-Z'</span> <span class="token operator">&lt;</span> textfile <span class="token operator">></span> newfile
+
+<span class="token comment" spellcheck="true"># 若要创建一个文件中的单词列表</span>
+<span class="token function">tr</span> -cs <span class="token string">'[:lower:][:upper:]'</span> <span class="token string">'[\n*]'</span> <span class="token operator">&lt;</span> textfile <span class="token operator">></span> newfile
+
+<span class="token comment" spellcheck="true"># 若要从某个文件中删除所有空字符</span>
+<span class="token function">tr</span> -d <span class="token string">'\0'</span> <span class="token operator">&lt;</span> textfile <span class="token operator">></span> newfile
+
+<span class="token comment" spellcheck="true"># 若要用单独的换行替换每一序列的一个或多个换行，请输入：</span>
+<span class="token function">tr</span> -s <span class="token string">'\n'</span> <span class="token operator">&lt;</span> textfile <span class="token operator">></span> newfile
+
+<span class="token comment" spellcheck="true"># 要以单个“#”字符替换 &lt;space> 字符类中的每个字符序列</span>
+<span class="token function">tr</span> -s <span class="token string">'[:space:]'</span> <span class="token string">'[#*]'</span>
+</code></pre>
+<h2 id="4-grep-查找字符串"><a href="#4-grep-查找字符串" class="headerlink" title="4.grep - 查找字符串"></a>4.grep - 查找字符串</h2><p><code>grep</code>命令用于搜索文本或指定的文件中与指定的字符串或模式相匹配的行。默认情况下，<code>grep</code>命令只显示匹配的行。</p>
+<p><code>grep</code>命令的语法如下所示：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">grep</span> <span class="token punctuation">[</span>OPTION<span class="token punctuation">]</span><span class="token punctuation">..</span>. PATTERN <span class="token punctuation">[</span>FILE<span class="token punctuation">]</span><span class="token punctuation">..</span>.
+<span class="token function">grep</span> <span class="token punctuation">[</span>OPTION<span class="token punctuation">]</span><span class="token punctuation">..</span>. <span class="token punctuation">[</span>-e PATTERN <span class="token operator">|</span> -f FILE<span class="token punctuation">]</span> <span class="token punctuation">[</span>FILE<span class="token punctuation">]</span><span class="token punctuation">..</span>.
+</code></pre>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># `grep`命令查找文件/etc/passwd 中帐号 blinkfox 的信息</span>
+<span class="token function">grep</span> blinkfox /etc/passwd
+
+<span class="token comment" spellcheck="true"># 使用 -i 选项，强制 grep 命令忽略搜索关键字的大小写</span>
+<span class="token function">grep</span> -i blinkfox /etc/passwd
+
+<span class="token comment" spellcheck="true"># 使用 -r 选项，可以递归搜索指定目录下的所有文件</span>
+<span class="token function">grep</span> -r blinkfox /etc/
+
+<span class="token comment" spellcheck="true"># 使用 -w 选项，只匹配包含指定单词的行</span>
+<span class="token function">grep</span> -w blinkfox /etc/
+
+<span class="token comment" spellcheck="true"># 使用 -c 选项，报告文件或文本中模式被匹配的次数</span>
+<span class="token function">grep</span> -c blinkfox /etc/passwd
+
+<span class="token comment" spellcheck="true"># 使用 -n 选项，显示每一个匹配的行的行号</span>
+<span class="token function">grep</span> -n blinkfox /etc/passwd
+
+<span class="token comment" spellcheck="true"># 使用 -v 选项，可以输出除匹配指定模式的行以外的其他所有行</span>
+<span class="token function">grep</span> -v blinkfox /etc/passwd
+
+<span class="token comment" spellcheck="true"># 使用 --color 选项，在输出中将匹配的字符串以彩色的形式标出</span>
+<span class="token function">grep</span> --color blinkfox /etc/passwd
+</code></pre>
+<h2 id="5-diff-比较两个文件"><a href="#5-diff-比较两个文件" class="headerlink" title="5.diff - 比较两个文件"></a>5.diff - 比较两个文件</h2><p><code>diff</code>命令用于比较两个文件，并找出它们之间的不同。<code>diff</code>命令的语法如下所示：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">diff</span> <span class="token punctuation">[</span>OPTION<span class="token punctuation">]</span><span class="token punctuation">..</span>. from-file to-file
+</code></pre>
+<p>常用使用方式如下：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 比较两个文件</span>
+<span class="token function">diff</span> nsswitch.conf nsswitch.conf.org
+
+<span class="token comment" spellcheck="true"># 使用 -w 选项，比较时忽略空格</span>
+<span class="token function">diff</span> -w nsswitch.conf nsswitch.conf.org
+
+<span class="token comment" spellcheck="true"># 使用 -y 选项，以并排的格式输出两个文件的比较结果</span>
+<span class="token function">diff</span> -y nsswitch.conf nsswitch.conf.org
+
+使用 -c 选项，以上下对比的格式输出两个文件的比较结果
+<span class="token function">diff</span> -c nsswitch.conf nsswitch.conf.org
+</code></pre>
+
+      
     </div>
-</div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/10/11/ruan-jian-gong-ju/linux/chang-yong-bash-ming-ling-zheng-li-zhi-wen-ben-chu-li/" data-id="ckg0roi9v00cv0sjuwyilkwin" class="article-share-link">分享</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-软件工具/Linux/常用Bash命令整理之操作文件和目录" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/10/10/ruan-jian-gong-ju/linux/chang-yong-bash-ming-ling-zheng-li-zhi-cao-zuo-wen-jian-he-mu-lu/" class="article-date">
+  <time datetime="2018-10-10T15:10:00.000Z" itemprop="datePublished">2018-10-10</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/软件工具/">软件工具</a>
+  </div>
 
-<footer class="page-footer bg-color">
-    <div class="container row center-align">
-        <div class="col s12 m8 l8 copy-right">
-            Copyright © 2019 zhangcheng All Rights Reserved.
-            
-                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">291.6k</span>
-            
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/10/10/ruan-jian-gong-ju/linux/chang-yong-bash-ming-ling-zheng-li-zhi-cao-zuo-wen-jian-he-mu-lu/">常用Bash命令整理之操作文件和目录</a>
+    </h1>
+  
 
-            
-			
-                <br>
-                
-                <span id="busuanzi_container_site_pv">
-                    <i class="fa fa-heart-o"></i>
-                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
-                </span>
-                
-                
-                <span id="busuanzi_container_site_uv">
-                    <i class="fa fa-users"></i>
-                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
-                </span>
-                
-            
-        </div>
-        <div class="col s12 m4 l4 social-link social-statis">
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="1-touch-创建文件"><a href="#1-touch-创建文件" class="headerlink" title="1. touch - 创建文件"></a>1. touch - 创建文件</h2><p><code>touch</code>命令就可用于创建、变更和修改文件的时间戳。它是 Linux 操作系统的标准程序。<code>touch</code>命令又如下选项：</p>
+<pre class=" language-bash"><code class="language-bash">-a: 只改变访问时间 
+-c: 不创建任何文件
+-m: 只改变修改时间
+-r: 使用指定文件的时间替代当前时间
+-t: 使用 <span class="token punctuation">[</span><span class="token punctuation">[</span>CC<span class="token punctuation">]</span>YY<span class="token punctuation">]</span>MMDDhhmm<span class="token punctuation">[</span>.ss<span class="token punctuation">]</span> 替代当前时间
+</code></pre>
+<p>touch 命令的常见用法如下：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 创建一个名为 effyl 的新空文件</span>
+<span class="token function">touch</span> effyl
 
-    <a href="https://weibo.com/u/6420410379?is_all=1" class="tooltipped" target="_blank" data-tooltip="我的微博" data-position="top" data-delay="50">
-        <i class="fa fa-weibo"></i>
-    </a>
+<span class="token comment" spellcheck="true"># 同时创建名称分别为 effyl myeffyl lueffyl 的三个文件</span>
+<span class="token function">touch</span> effyl myeffyl lueffyl
 
+<span class="token comment" spellcheck="true"># 使用 -a 选项，可以改变或更新文件的最新访问时间，如果文件 effyl 不存在，则新创建一个</span>
+<span class="token function">touch</span> -a effyl
 
+<span class="token comment" spellcheck="true"># 使用 -c 选项，可以避免创建一个新文件，并用当前时间更新文件的时间戳</span>
+<span class="token function">touch</span> -c effyl
 
+<span class="token comment" spellcheck="true"># 使用 -m 选项，可以只改变文件的修改时间，而访问时间不变</span>
+<span class="token function">touch</span> -m effyl
 
+<span class="token comment" spellcheck="true"># 使用 -c 和 -t 选项，来明确设置文件的时间</span>
+<span class="token function">touch</span> -c -t YYMMDDHHMM filename
 
-    <a href="mailto:2508723631@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fa fa-envelope-open"></i>
-    </a>
+<span class="token comment" spellcheck="true"># 如果想使用文件 myeffyl 的时间戳更新文件 effyl 的时间戳，可以使用 -r 选项</span>
+<span class="token function">touch</span> -r myeffyl effyl
+</code></pre>
+<h2 id="2-mkdir-创建目录"><a href="#2-mkdir-创建目录" class="headerlink" title="2.mkdir - 创建目录"></a>2.mkdir - 创建目录</h2><p><code>mkdir</code>命令用于创建一个新目录。最基本的<code>mkdir</code>命令的使用方法如下所示：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 在当前目录下创建一个给定的目录名</span>
+<span class="token function">mkdir</span> <span class="token operator">&lt;</span>dirname<span class="token operator">></span>
 
+<span class="token comment" spellcheck="true"># 在 backup 中的相对路径创建一个名为 old 的目录</span>
+<span class="token function">mkdir</span> backup/old
 
+<span class="token comment" spellcheck="true"># 在 backup 中的绝对路径中创建一个名为 old 的目录</span>
+<span class="token function">mkdir</span> /home/blinkfox/backup/old
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2508723631" class="tooltipped" data-tooltip="QQ联系我: 2508723631" data-position="top" data-delay="50">
-        <i class="fa fa-qq"></i>
-    </a>
+<span class="token comment" spellcheck="true"># 使用 -p 选项，会自动创建所有还不存在的父目录</span>
+<span class="token function">mkdir</span> -p backup/old
 
+<span class="token comment" spellcheck="true"># 使用 -m 选项，可以设置将要创建目录的权限</span>
+<span class="token comment" spellcheck="true"># 如：创建一个任何人都有读写访问权限的目录</span>
+<span class="token function">mkdir</span> -p -m 777 backup/old
+</code></pre>
+<h2 id="3-cp-复制文件或目录"><a href="#3-cp-复制文件或目录" class="headerlink" title="3.cp - 复制文件或目录"></a>3.cp - 复制文件或目录</h2><p><code>cp</code>命令用于将文件从一个地方复制到另一个地方。原来的文件保持不变，新文件可能保持原名或用一个不同的名字。</p>
+<p>使用 cp 命令复制文件和目录的语法有以下几种：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 复制源文件到目标文件</span>
+<span class="token function">cp</span> <span class="token punctuation">[</span>OPTION<span class="token punctuation">]</span> SOURCE DEST
 
+<span class="token comment" spellcheck="true"># 复制一个或多个源文件到一个目录</span>
+<span class="token function">cp</span> <span class="token punctuation">[</span>OPTION<span class="token punctuation">]</span> SOURCE<span class="token punctuation">..</span>. DIRECTORY
 
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fa fa-rss"></i>
-    </a>
-    <!--
-        Facebook: fa-facebook
-        Twitter: fa-twitter
-        Google-plus: fa-google-plus
-        Linkedin: fa-linkedin
-        Tumblr: fa-tumblr
-        Medium: fa-medium
-        Slack: fa-slack
-        新浪微博: fa-weibo
-        微信: fa-wechat
-     -->
-</div>
+<span class="token comment" spellcheck="true"># 同上</span>
+<span class="token function">cp</span> <span class="token punctuation">[</span>OPTION<span class="token punctuation">]</span> -t DIRECTORY SOURCE<span class="token punctuation">..</span>. 
+</code></pre>
+<p>常用使用示例如下：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 在当前目录下，创建一个文件 file.txt 的副本，取名为 newfile.txt</span>
+<span class="token function">cp</span> file.txt newfile.txt
+
+<span class="token comment" spellcheck="true"># 复制当前目录下的 file.txt 文件到 /tmp 目录下</span>
+<span class="token function">cp</span> file.txt /tmp
+
+<span class="token comment" spellcheck="true"># 复制当前目录下的所有文件到 /tmp 目录下</span>
+<span class="token function">cp</span> * /tmp
+
+<span class="token comment" spellcheck="true"># 使用 -p 选项，可以使复制一个文件到新文件时，保留源文件的所有者、权限等信息</span>
+<span class="token function">cp</span> -p filename /path/to/new/location/myfile
+
+<span class="token comment" spellcheck="true"># 使用 -R 或 -r 选项，恶意递归地复制一个目录</span>
+<span class="token comment" spellcheck="true"># 即将一个目录及其下的所有文件和子目录都复制到另一个目录</span>
+<span class="token function">cp</span> -R * /home/blinkfox/backup
+</code></pre>
+<h2 id="4-ln-链接文件或目录"><a href="#4-ln-链接文件或目录" class="headerlink" title="4.ln - 链接文件或目录"></a>4.ln - 链接文件或目录</h2><p><code>ln</code>命令用于创建软链接或硬链接。使用 -s 选项，可以创建一个软链接：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 在目录 lib 下创建一个软链接 library.so，链接到 /home/blinkfox/src/library.so</span>
+<span class="token function">ln</span> -s /home/blinkfox/src/library.so /home/blinkfox/lib
+
+<span class="token comment" spellcheck="true"># 创建目录的软链接</span>
+<span class="token function">ln</span> -s /home/blinkfox/src <span class="token function">source</span>
+</code></pre>
+<h2 id="5-mv-移动文件或目录"><a href="#5-mv-移动文件或目录" class="headerlink" title="5. mv - 移动文件或目录"></a>5. mv - 移动文件或目录</h2><p><code>mv</code>命令用于将文件和目录从一个位置移到另外一个位置。除了移动文件，<code>mv</code>命令还可用于修改文件或目录的名字。</p>
+<p>mv 命令的基本语法如下所示：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">mv</span> SOURCE<span class="token punctuation">..</span>. DIRECTORY
+</code></pre>
+<p>常用命令如下：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 将当前目录下的文件 source.txt 移到目录 /tmp 下</span>
+<span class="token function">mv</span> source.txt /tmp
+
+<span class="token comment" spellcheck="true"># 将目录 dir1、dir2 移到目录 dir_dist 下</span>
+<span class="token function">mv</span> dir1 dir2 dir_dist
+
+<span class="token comment" spellcheck="true"># 将当前目录下的 old.txt 文件更名为 new.txt</span>
+<span class="token function">mv</span> old.txt new.txt
+
+<span class="token comment" spellcheck="true"># 使用 -i 选项，在重写覆盖目标文件或目录之前给出提示信息</span>
+<span class="token function">mv</span> -i old.txt new.txt
+
+<span class="token comment" spellcheck="true"># 将当前目录下的所有文件移动到目录 /tmp 下</span>
+<span class="token function">mv</span> * /tmp/
+
+<span class="token comment" spellcheck="true"># 使用 -i 选项，从 dir1 中移动那些在目标目录中不存在的文件到目标目录</span>
+<span class="token function">mv</span> -u dir1/* dir2/
+</code></pre>
+<h2 id="6-rm-删除文件或目录"><a href="#6-rm-删除文件或目录" class="headerlink" title="6.rm - 删除文件或目录"></a>6.rm - 删除文件或目录</h2><p><code>rm</code>命令用于删除指定的文件和目录。其语法如下所示：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">rm</span> <span class="token punctuation">[</span>OPTIONS<span class="token punctuation">]</span><span class="token punctuation">..</span>. FILE<span class="token punctuation">..</span>.
+</code></pre>
+<p><code>rm</code>的常用命令如下：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 删除当前目录下的文件 file1.txt、file2.txt、file3.txt</span>
+<span class="token function">rm</span> file1.txt file2.txt file3.txt
+
+<span class="token comment" spellcheck="true"># 删除当前目录下的所有文件</span>
+<span class="token function">rm</span> *
+
+<span class="token comment" spellcheck="true"># 删除你当前帐号主目录下的 temp 目录中的所有文件</span>
+<span class="token function">rm</span> ~/temp/*
+
+<span class="token comment" spellcheck="true"># 使用 -i 选项，可以在删除每个文件或目录前提示用户确认</span>
+<span class="token function">rm</span> -i *
+
+<span class="token comment" spellcheck="true"># 删除当前目录下所有以".doc"结尾的文件</span>
+<span class="token function">rm</span> *.doc
+
+<span class="token comment" spellcheck="true"># 删除当前目录下所有文件名中包含"movie"字符串的文件</span>
+<span class="token function">rm</span> *movie*
+
+<span class="token comment" spellcheck="true"># 删除当前目录下所有以"a"开头的文件</span>
+<span class="token function">rm</span> a*
+
+<span class="token comment" spellcheck="true"># 删除当前目录下整个文件名（包括扩展名）只有 3 个字符的所有文件</span>
+<span class="token function">rm</span> ???
+
+<span class="token comment" spellcheck="true"># 删除当前目录下文件扩展名有两个字符的所有文件</span>
+<span class="token function">rm</span> *.??
+
+<span class="token comment" spellcheck="true"># 删除当前目录下文件名中含有字母 a 或 b 或 c 的所有文件</span>
+<span class="token function">rm</span> *<span class="token punctuation">[</span>abc<span class="token punctuation">]</span>*
+
+<span class="token comment" spellcheck="true"># 删除当前目录下文件名中包含 0~9 的所有文件</span>
+<span class="token function">rm</span> *<span class="token punctuation">[</span>0-9<span class="token punctuation">]</span>*
+
+<span class="token comment" spellcheck="true"># 删除当前目录下文件扩展名是字母 c 或 h 的所有文件</span>
+<span class="token function">rm</span> *.<span class="token punctuation">[</span>ch<span class="token punctuation">]</span>
+
+<span class="token comment" spellcheck="true"># 删除 /tmp 目录下的所有文件及其子目录</span>
+<span class="token function">rm</span> -rf /tmp/*
+</code></pre>
+<blockquote>
+<p>-f 删除前不提示用户确认，并忽略不存在的文件</p>
+</blockquote>
+<blockquote>
+<p>-r 递归地删除目录及其下的内容</p>
+</blockquote>
+
+      
     </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/10/10/ruan-jian-gong-ju/linux/chang-yong-bash-ming-ling-zheng-li-zhi-cao-zuo-wen-jian-he-mu-lu/" data-id="ckg0roi9s00cr0sjunbvvp8pq" class="article-share-link">分享</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+  <nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/page/13/">&laquo; 上一页</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/12/">12</a><a class="page-number" href="/page/13/">13</a><span class="page-number current">14</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/15/">下一页 &raquo;</a>
+  </nav>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Markdown/">Markdown</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/html/">html</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端/">前端</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/搭建/">搭建</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/网站服务器与虚拟主机/">网站服务器与虚拟主机</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/设计/">设计</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/软件工具/">软件工具</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/AI/">AI</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CPU缓存/">CPU缓存</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Css/">Css</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Css3/">Css3</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/DevOps/">DevOps</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/">Git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitLab-CI/">GitLab CI</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Jenkins/">Jenkins</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/">Markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Vue/">Vue</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/css3/">css3</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/html/">html</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/html5/">html5</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js/">js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/php/">php</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ps/">ps</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/虚拟主机/">虚拟主机</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/设置/">设置</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/设计类/">设计类</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/AI/" style="font-size: 10px;">AI</a> <a href="/tags/CPU缓存/" style="font-size: 10px;">CPU缓存</a> <a href="/tags/Css/" style="font-size: 10px;">Css</a> <a href="/tags/Css3/" style="font-size: 10px;">Css3</a> <a href="/tags/DevOps/" style="font-size: 10px;">DevOps</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/GitLab-CI/" style="font-size: 10px;">GitLab CI</a> <a href="/tags/Jenkins/" style="font-size: 10px;">Jenkins</a> <a href="/tags/Linux/" style="font-size: 17.5px;">Linux</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/Vue/" style="font-size: 10px;">Vue</a> <a href="/tags/css3/" style="font-size: 15px;">css3</a> <a href="/tags/html/" style="font-size: 17.5px;">html</a> <a href="/tags/html5/" style="font-size: 17.5px;">html5</a> <a href="/tags/js/" style="font-size: 10px;">js</a> <a href="/tags/php/" style="font-size: 12.5px;">php</a> <a href="/tags/ps/" style="font-size: 15px;">ps</a> <a href="/tags/虚拟主机/" style="font-size: 10px;">虚拟主机</a> <a href="/tags/设置/" style="font-size: 20px;">设置</a> <a href="/tags/设计类/" style="font-size: 17.5px;">设计类</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">十月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">六月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">五月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">四月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">三月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">十一月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">十月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">九月 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/10/08/da-jian/kuai-su-she-zhi-ma-yun/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/15/hou-duan/php/php-de-wen-jian-ming-ling/">php的文件命令.md</a>
+          </li>
+        
+          <li>
+            <a href="/2019/05/17/da-jian/mian-fei-da-jian-wang-zhan-de-xu-ni-kong-jian-zhu-ji/">网站建设</a>
+          </li>
+        
+          <li>
+            <a href="/2019/04/17/ruan-jian-she-ji/ai/ai-ji-chu-shi-pin/">AI基础视频课程</a>
+          </li>
+        
+          <li>
+            <a href="/2019/04/08/qian-duan/html5-css3/css-ji-chu-ji-xuan-ze-qi-chang-yong-shu-xing/">css基础及选择器常用属性.md</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy;2018- 2020 Zhangcheng<br>
+      Powered by <a href="/" target="_blank">张成的博客 </a>
+    </div>
+  </div>
+
+
+
 </footer>
-
-<div class="progress-bar"></div>
-
-
-<!-- 搜索遮罩框 -->
-<div id="searchModal" class="modal">
-    <div class="modal-content">
-        <div class="search-header">
-            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input">
-        </div>
-        <div id="searchResult"></div>
+ <!-- 音乐播放器
+    2019-03-16 13:12:12
+    无风不起浪_你的歌单分享「我喜欢的音乐」: http://music.163.com/playlist/2531704188/604884741/?userid=604884741 (来自@网易云音乐)
+    -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+    <style>.aplayer-list-index,.aplayer-list-title,.aplayer-list-author,.aplayer .aplayer-lrc p{background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.85, #ff2), color-stop(1, #f22));
+        color: transparent;
+        -webkit-background-clip: text;
+        cursor: pointer;}
+        .aplayer .aplayer-lrc p {
+        font-size:16px;
+        transition: all .5s ease-out;
+        opacity: .4;
+        overflow: hidden;
+    
+    } </style>
+    <div class="aplayer" data-id="2531704188" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.9"></div>
+    <script>var meting_api='http://api.mizore.cn/meting/api.php?server=:server&type=:type&id=:id'</script>
+    <script src="http://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+    
+    
+     <!-- 版权信息 -->
+    <script>
+       if(window.console&&window.console.log){
+                //Unicode编码转换工bai具转化du成中文汉字 http://unicode.cha001.com/
+        console.log(" %c \u5f20\u6210\u7684\u535a\u5ba2--->>> %c http://13469940053.github.io  \n", "color: #000000;font-size:50px; background: #abcdef; padding:5px 5px; border-radius:5px; border-radius: 5px;", "background: #fadfa3; padding:5px 0;font-size:50px;");
+        console.log('\u4f5c\u8005\uff1a\u65e0\u98ce\u4e0d\u8d77\u6d6a\u0040\u4f60\uff0c\u0051\u0051\uff1a\u0032\u0033\u0035\u0038\u0039\u0033\u0035\u0035\u0037\u0039');
+        console.log("%c\u539f\u521b\u4f5c\u54c1\u8bf7\u5c0a\u91cd\u4f5c\u8005\u52b3\u52a8\u6210\u679c\uff0c\u52ff\u5012\u5356\u5206\u4eab\uff0c\u8c22\u8c22\uff01","color:red");
+    }
+    </script>
+    
+    
+    
+    <script>
+        // <!--百度收录自动推送-->
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    //360自动提交连接-->
+     (function(){
+            var src = (document.location.protocol == 'http:') ? 'http://js.passport.qihucdn.com/11.0.1.js?d4d9f371abe1a3935500b5aaf98e676d':'https://jspassport.ssl.qhimg.com/11.0.1.js?d4d9f371abe1a3935500b5aaf98e676d';
+            document.write('<script src=' + src + ' id='sozz'><\/script>');
+            })();
+      //360自动提交连接-->
+    (function(){
+       var src = document.location.protocol +'//js.passport.qihucdn.com/11.0.1.js?0cafbe109ab248eb7be06d7f99c4009f';
+       document.write('<script src="' + src + '" id="sozz"><\/script>');
+    })();
+    
+        // <!--百度收录自动推送-->
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    
+    //百度推送优化版
+        (function(){
+            var canonicalURL, curProtocol;
+            //Get the <link> tag
+            var x=document.getElementsByTagName("link");
+            //Find the last canonical URL
+            if(x.length > 0){
+                for (i=0;i<x.length;i++){
+                    if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){
+                        canonicalURL=x[i].href;
+                    }
+                }
+            }
+            //Get protocol
+            if (!canonicalURL){
+                curProtocol = window.location.protocol.split(':')[0];
+            }
+            else{
+                curProtocol = canonicalURL.split(':')[0];
+            }
+            //Get current URL if the canonical URL does not exist
+            if (!canonicalURL) canonicalURL = window.location.href;
+            //Assign script content. Replace current URL with the canonical URL
+            !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=canonicalURL,t=document.referrer;if(!e.test(r)){var n=(String(curProtocol).toLowerCase() === 'https')?"https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif":"//api.share.baidu.com/s.gif";t?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var i=new Image;i.src=n}}(window);})();
+    
+    
+    </script>
+    
+    
     </div>
-</div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">主页</a>
+  
+    <a href="/archives" class="mobile-nav-link">分类</a>
+  
+    <a href="/about" class="mobile-nav-link">关于我</a>
+  
+    <a href="/webcode" class="mobile-nav-link">留言板</a>
+  
+</nav>
+    
 
-<script src="/js/search.js"></script>
-<script type="text/javascript">
-$(function () {
-    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
-});
-</script>
-<!-- 回到顶部按钮 -->
-<div id="backTop" class="top-scroll">
-    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
-        <i class="fa fa-angle-up"></i>
-
-    </a>
-</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
-<script src="/libs/materialize/materialize.min.js"></script>
-<script src="/libs/masonry/masonry.pkgd.min.js"></script>
-<script src="/libs/aos/aos.js"></script>
-<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
-<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
-<script src="/js/matery.js"></script>
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script src="/js/script.js"></script>
 
 
 
-    <script src="/libs/others/clicklove.js"></script>
-
-
-    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
-
-
+  </div>
 </body>
 </html>

@@ -1,1100 +1,404 @@
-<!DOCTYPE HTML>
-<html lang="zh-CN">
-
-
+<!DOCTYPE html>
+<html>
 <head><meta name="generator" content="Hexo 3.8.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="无浪网、张成的博客、无风不起浪网、无浪博客">
-    <meta name="description" content="张成的博客">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="renderer" content="webkit|ie-stand|ie-comp">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>张成的博客</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
+  <meta charset="utf-8">
+  
 
-    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
-    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/matery.css">
-    <link rel="stylesheet" type="text/css" href="/css/my.css">
-    <style type="text/css">
-        
-    </style>
-
-    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+  
+  <title>张成的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="无浪网、张成的博客、无浪博客、无风不起浪网由张成初期学习前端知识所做，仅供学习和资料储存使用！张成留言">
+<meta name="keywords" content="无浪网、张成的博客、无风不起浪网、无浪博客">
+<meta property="og:type" content="website">
+<meta property="og:title" content="张成的博客">
+<meta property="og:url" content="http://yoursite.com/page/7/index.html">
+<meta property="og:site_name" content="张成的博客">
+<meta property="og:description" content="无浪网、张成的博客、无浪博客、无风不起浪网由张成初期学习前端知识所做，仅供学习和资料储存使用！张成留言">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="张成的博客">
+<meta name="twitter:description" content="无浪网、张成的博客、无浪博客、无风不起浪网由张成初期学习前端知识所做，仅供学习和资料储存使用！张成留言">
+  
+    <link rel="alternate" href="/atom.xml" title="张成的博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
 </head>
-
-
+</html>
 <body>
-
-<header class="navbar-fixed">
-    <nav id="headNav" class="bg-color nav-transparent">
-        <div id="navContainer" class="nav-wrapper container">
-            <div class="brand-logo">
-                <a href="/" class="waves-effect waves-light">
-                    
-                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
-                    
-                    <span class="logo-span">张成的博客</span>
-                </a>
-            </div>
-            
-
-<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
-<ul class="right">
-    
-    <li class="hide-on-med-and-down">
-        <a href="/" class="waves-effect waves-light">
-            
-            <i class="fa fa-home"></i>
-            
-            <span>首页</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/tags" class="waves-effect waves-light">
-            
-            <i class="fa fa-tags"></i>
-            
-            <span>标签</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/categories" class="waves-effect waves-light">
-            
-            <i class="fa fa-bookmark"></i>
-            
-            <span>分类</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/archives" class="waves-effect waves-light">
-            
-            <i class="fa fa-archive"></i>
-            
-            <span>总览</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/about" class="waves-effect waves-light">
-            
-            <i class="fa fa-user-circle-o"></i>
-            
-            <span>关于我</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/friends" class="waves-effect waves-light">
-            
-            <i class="fa fa-address-book"></i>
-            
-            <span>网络课堂</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/webcode" class="waves-effect waves-light">
-            
-            <i class="fa fa-user-md"></i>
-            
-            <span>资料总览</span>
-        </a>
-    </li>
-    
-    <li>
-        <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-            <i id="searchIcon" class="fa fa-search" title="搜索"></i>
-        </a>
-    </li>
-</ul>
-
-<div id="mobile-nav" class="side-nav sidenav">
-
-    <div class="mobile-head bg-color">
-        
-        <img src="/medias/logo.png" class="logo-img circle responsive-img">
-        
-        <div class="logo-name">张成的博客</div>
-        <div class="logo-desc">
-            
-            无浪网、张成的博客、无浪博客、无风不起浪网由张成初期学习前端知识所做，仅供学习和资料储存使用！张成留言
-            
-        </div>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">张成的博客</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">张成的博客</a>
+        </h2>
+      
     </div>
-
-    
-
-    <ul class="menu-list mobile-menu-list">
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
         
-        <li>
-            <a href="/" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-home"></i>
-                
-                首页
-            </a>
-        </li>
+          <a class="main-nav-link" href="/">主页</a>
         
-        <li>
-            <a href="/tags" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-tags"></i>
-                
-                标签
-            </a>
-        </li>
+          <a class="main-nav-link" href="/archives">分类</a>
         
-        <li>
-            <a href="/categories" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-bookmark"></i>
-                
-                分类
-            </a>
-        </li>
+          <a class="main-nav-link" href="/about">关于我</a>
         
-        <li>
-            <a href="/archives" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-archive"></i>
-                
-                总览
-            </a>
-        </li>
+          <a class="main-nav-link" href="/webcode">留言板</a>
         
-        <li>
-            <a href="/about" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-user-circle-o"></i>
-                
-                关于我
-            </a>
-        </li>
+      </nav>
+      <nav id="sub-nav">
         
-        <li>
-            <a href="/friends" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-address-book"></i>
-                
-                网络课堂
-            </a>
-        </li>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <li>
-            <a href="/webcode" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-user-md"></i>
-                
-                资料总览
-            </a>
-        </li>
-        
-        
-    </ul>
-</div>
-
-        </div>
-
-        
-    </nav>
-
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
 </header>
-
-
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                    张成的博客
-                
-            </div>
-
-
-            <div class="description center-align">
-                
-                    无浪网、张成的博客、无浪博客、无风不起浪网由张成初期学习前端知识所做，仅供学习和资料储存使用！张成留言
-                
-            </div>
-        </div>
-    </div>
-</div>
-<script>
-// 每天切换 banner 图.  Switch banner image every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
-</script>
-    </div>
-</div>
-
-
-<main class="content">
-
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-前端/css/css3新增选择器" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/03/27/qian-duan/css/css3-xin-zeng-xuan-ze-qi/" class="article-date">
+  <time datetime="2019-03-27T14:05:23.000Z" itemprop="datePublished">2019-03-27</time>
+</a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/前端/">前端</a>
+  </div>
 
+  </div>
+  <div class="article-inner">
     
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/03/27/qian-duan/css/css3-xin-zeng-xuan-ze-qi/">CSS3新增选择器</a>
+    </h1>
+  
 
-    <!-- 所有文章卡片 -->
-    <article id="articles" class="container articles">
-        <div class="row article-row">
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/10/01/hou-duan/java/shi-yong-java-diao-yong-phantomjs-dong-tai-dao-chu-echarts-tu-pian-dao-word-wen-jian-zhong/">
-                        <div class="card-image">
-                            
-                            <img src="http://static.blinkfox.com/blog_20181001_chart.jpg" class="responsive-img" alt="使用Java调用PhantomJS动态导出ECharts图片到Word文件中">
-                            
-                            <span class="card-title">使用Java调用PhantomJS动态导出ECharts图片到Word文件中</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                前言最近在一个项目中遇到导出为Word文件的问题，导出Word的功能很简单，但是导出Word文件中包含数据库动态查询的统计数据而生成的Ech
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-10-01
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/后端/" class="post-category" target="_blank">
-                                    后端
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/29/hou-duan/java/commons/apache-commons-lang-zhi-ri-qi-shi-jian-gong-ju-lei/">
-                        <div class="card-image">
-                            
-                            <img src="http://static.blinkfox.com/20180929_datetime.jpg" class="responsive-img" alt="Apache Commons Lang之日期时间工具类">
-                            
-                            <span class="card-title">Apache Commons Lang之日期时间工具类</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                
-码农不识Apache，码尽一生也枉然。
-
-FastDateFormatFastDateFormat是一个快速且线程安全的时间操作类，它完全
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-29
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/后端/" class="post-category" target="_blank">
-                                    后端
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/Apache/" target="_blank">
-                            <span class="chip bg-color">Apache</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/28/hou-duan/java/commons/apache-commons-lang-zhi-arrayutils/">
-                        <div class="card-image">
-                            
-                            <img src="http://static.blinkfox.com/image_20180928.jpg" class="responsive-img" alt="Apache Commons Lang之ArrayUtils">
-                            
-                            <span class="card-title">Apache Commons Lang之ArrayUtils</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                
-码农不识Apache，码尽一生也枉然。
-
-常量数组public static final Object[] EMPTY_OBJECT_AR
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-28
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/后端/" class="post-category" target="_blank">
-                                    后端
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/Apache/" target="_blank">
-                            <span class="chip bg-color">Apache</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/27/hou-duan/java/commons/apache-commons-lang-zhi-stringutils/">
-                        <div class="card-image">
-                            
-                            <img src="http://static.blinkfox.com/hexoblog_20180927_string.jpg" class="responsive-img" alt="Apache Commons Lang之StringUtils">
-                            
-                            <span class="card-title">Apache Commons Lang之StringUtils</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                
-码农不识Apache，码尽一生也枉然。
-
-判断空字符串isEmpty(CharSequence cs)判断是否是空字符串，代码示例：
-St
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-27
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/后端/" class="post-category" target="_blank">
-                                    后端
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/Apache/" target="_blank">
-                            <span class="chip bg-color">Apache</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/25/shu-ju-ku/postgresql-ji-chu-zhi-shi-zheng-li/">
-                        <div class="card-image">
-                            
-                            <img src="http://static.blinkfox.com/hexoblog_20180925_sql.jpg" class="responsive-img" alt="PostgreSQL基础知识整理">
-                            
-                            <span class="card-title">PostgreSQL基础知识整理</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                数据库操作DMLCREATE TABLECREATE TABLE语句用于创建数据库中的表。语法是：
-CREATE TABLE 表名称 (
-列
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-25
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/数据库/" class="post-category" target="_blank">
-                                    数据库
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/PostgreSQL/" target="_blank">
-                            <span class="chip bg-color">PostgreSQL</span>
-                        </a>
-                        
-                        <a href="/tags/数据库/" target="_blank">
-                            <span class="chip bg-color">数据库</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/24/ruan-jian-gong-ju/git/git-zhi-shi-dian-zheng-li/">
-                        <div class="card-image">
-                            
-                            <img src="http://static.blinkfox.com/hexoblog_20180924_git.jpg" class="responsive-img" alt="Git知识点整理">
-                            
-                            <span class="card-title">Git知识点整理</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                1. Git基本概念。
-repository
-config
-init
-clone
-fetch
-pull
-commit
-push
-branch
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-24
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/软件工具/" class="post-category" target="_blank">
-                                    软件工具
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Git/" target="_blank">
-                            <span class="chip bg-color">Git</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/21/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-zhuang-tai-mo-shi/">
-                        <div class="card-image">
-                            
-                            <img src="http://static.blinkfox.com/hexoblog_20180921_state.jpg" class="responsive-img" alt="Java面向对象设计之状态模式">
-                            
-                            <span class="card-title">Java面向对象设计之状态模式</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                一、模式动机在很多情况下，一个对象的行为取决于一个或多个动态变化的属性，这样的属性叫做状态，这样的对象叫做有状态的(stateful)对象，
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-21
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/软件设计/" class="post-category" target="_blank">
-                                    软件设计
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/设计模式/" target="_blank">
-                            <span class="chip bg-color">设计模式</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/20/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-dai-li-mo-shi/">
-                        <div class="card-image">
-                            
-                            <img src="http://static.blinkfox.com/hexoblog_20180920_proxy.jpg" class="responsive-img" alt="Java面向对象设计之代理模式">
-                            
-                            <span class="card-title">Java面向对象设计之代理模式</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                一、模式动机在某些情况下，一个客户不想或者不能直接引用一个对象，此时可以通过一个称之为“代理”的第三者来实现间接引用。代理对象可以在客户端和
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-20
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/软件设计/" class="post-category" target="_blank">
-                                    软件设计
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/设计模式/" target="_blank">
-                            <span class="chip bg-color">设计模式</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/19/hou-duan/java/mvel2.x-mo-ban-zhi-nan/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="MVEL2.x模板指南">
-                            
-                            <span class="card-title">MVEL2.x模板指南</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                简介
-MVEL最初作为Mike Brock创建的 Valhalla项目的表达式计算器（expression evaluator）。Valha
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-19
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/后端/" class="post-category" target="_blank">
-                                    后端
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/MVEL/" target="_blank">
-                            <span class="chip bg-color">MVEL</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/18/hou-duan/java/mvel2.x-yu-fa-zhi-nan/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="MVEL 2.x语法指南">
-                            
-                            <span class="card-title">MVEL 2.x语法指南</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                MVEL 2.x语法指南MVEL全称为：MVFLEX Expression Language，是用来计算Java语法所编写的表达式值的表达式
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/后端/" class="post-category" target="_blank">
-                                    后端
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/MVEL/" target="_blank">
-                            <span class="chip bg-color">MVEL</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/17/hou-duan/spring/spring-ji-chu-jie-shao/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Spring基础介绍">
-                            
-                            <span class="card-title">Spring基础介绍</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                一、Spring 概述（一）Spring 的简史Spring 的历史网上有很多的介绍，下面是 Spring 发展历程的一个简介。
-1. 第一
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-17
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/后端/" class="post-category" target="_blank">
-                                    后端
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/Spring/" target="_blank">
-                            <span class="chip bg-color">Spring</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/14/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-gong-han-fang-fa-mo-shi/">
-                        <div class="card-image">
-                            
-                            <img src="http://static.blinkfox.com/hexoblog_20180914_factory.jpg" class="responsive-img" alt="Java面向对象设计之工厂方法模式">
-                            
-                            <span class="card-title">Java面向对象设计之工厂方法模式</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                一、模式定义工厂方法模式(Factory Method Pattern)又称为工厂模式，也叫虚拟构造器(Virtual Constructo
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-14
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/软件设计/" class="post-category" target="_blank">
-                                    软件设计
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/设计模式/" target="_blank">
-                            <span class="chip bg-color">设计模式</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-        </div>
-    </article>
-
-</main>
-
-
-<div class="container paging">
-    <div class="row">
-        <div class="col s6 m4 l4">
-            
-            <a href="/page/6/" class="left btn-floating btn-large waves-effect waves-light bg-color">
-                <i class="fa fa-angle-left"></i>
-            </a>
-            
-        </div>
-        <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">7 / 12</div>
-        </div>
-        <div class="col s6 m4 l4">
-            
-            <a href="/page/8/" class="right btn-floating btn-large waves-effect waves-light bg-color">
-                <i class="fa fa-angle-right"></i>
-            </a>
-            
-        </div>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <section class="normal" id="section-"><br><br>                        <h2 id="css3新增选择器">CSS3新增选择器</h2><br><p>1、E:nth-child(n)：匹配元素类型为E且是父元素的第n个子元素  </p><br><pre><code>&lt;style type=”text/css”&gt;<br>    .list div:nth-child(2){<br>        background-color:red;<br>    }<br>&lt;/style&gt;<br>……<br>&lt;div class=”list”&gt;<br>    &lt;h2&gt;1&lt;/h2&gt;<br>    &lt;div&gt;2&lt;/div&gt;<br>    &lt;div&gt;3&lt;/div&gt;<br>    &lt;div&gt;4&lt;/div&gt;<br>    &lt;div&gt;5&lt;/div&gt;<br>&lt;/div&gt;<br><br>&lt;!– 第2个子元素div匹配 –&gt;<br></code></pre><p>2、E:nth-last-child(n)：匹配元素类型为E且是父元素的倒数第n个子元素（与上一项顺序相反）<br>3、E:first-child：匹配元素类型为E且是父元素的第一个子元素<br>4、E:last-child：匹配元素类型为E且是父元素的最后一个子元素<br>5、E:only-child：匹配元素类型为E且是父元素中唯一的子元素<br>6、E:nth-of-type(n)：匹配父元素的第n个类型为E的子元素<br>7、E:nth-last-of-type(n)：匹配父元素的倒数第n个类型为E的子元素（与上一项顺序相反）<br>8、E:first-of-type：匹配父元素的第一个类型为E的子元素<br>9、E:last-of-type：匹配父元素的最后一个类型为E的子元素<br>10、E:only-of-type：匹配父元素中唯一子元素是E的子元素<br>11、E:empty 选择一个空的元素<br>12、E:enabled 可用的表单控件<br>13、E:disabled  失效的表单控件<br>14、E:checked   选中的checkbox<br>15、E:not(s)  不包含某元素  </p><br><pre><code>&lt;style type=”text/css”&gt;<br>    .list div:not(:nth-child(2)){<br>        background-color:red;<br>    }<br>&lt;/style&gt;<br>……<br>&lt;div class=”list”&gt;<br>    &lt;h2&gt;1&lt;/h2&gt;<br>    &lt;div&gt;2&lt;/div&gt;<br>    &lt;div&gt;3&lt;/div&gt;<br>    &lt;div&gt;4&lt;/div&gt;<br>    &lt;div&gt;5&lt;/div&gt;<br>&lt;/div&gt;<br><br>&lt;!– 第 3、4、5 子元素div匹配 –&gt;<br></code></pre><p>16、E:target 对应锚点的样式  </p><br><pre><code>&lt;style type=”text/css”&gt;<br>    h2:target{<br>        color:red;<br>    }<br>&lt;/style&gt;<br>……<br>&lt;a href=”#tit01”&gt;标题一&lt;/a&gt;<br>……<br>&lt;h2 id=”tit01”&gt;标题一&lt;/h2&gt;<br><br>&lt;!– 点击链接，h2标题变红 –&gt;<br></code></pre><p>17、E &gt; F   E元素下面第一层子集<br>18、E ~ F   E元素后面的兄弟元素<br>19、E + F  紧挨着的兄弟元素  </p><br><p>属性选择器：<br>1、E[data-attr]          含有data-attr属性的元素  </p><br><pre><code>&lt;style type=”text/css”&gt;<br>    div[data-attr=’ok’]{<br>        color:red;<br>    }<br>&lt;/style&gt;<br>……<br>&lt;div data-attr=”ok”&gt;这是一个div元素&lt;/div&gt;<br><br>&lt;!– 点击链接，h2标题变红 –&gt;<br></code></pre><p>2、E[data-attr=’ok’]     含有data-attr属性的元素且它的值为“ok”<br>3、E[data-attr^=’ok’]    含有data-attr属性的元素且它的值的开头含有“ok”<br>4、E[data-attr$=’ok’]    含有data-attr属性的元素且它的值的结尾含有“ok”<br>5、E[data-attr*=’ok’]    含有data-attr属性的元素且它的值中含有“ok”  </p><br><br><br>                    </section>
+      
     </div>
-</div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/03/27/qian-duan/css/css3-xin-zeng-xuan-ze-qi/" data-id="ckg0roi6t009g0sju3fldssvr" class="article-share-link">分享</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Css3/">Css3</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-软件设计/ps/p注册表清除" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/03/25/ruan-jian-she-ji/ps/p-zhu-ce-biao-qing-chu/" class="article-date">
+  <time datetime="2019-03-25T09:16:38.000Z" itemprop="datePublished">2019-03-25</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/设计/">设计</a>
+  </div>
 
-<footer class="page-footer bg-color">
-    <div class="container row center-align">
-        <div class="col s12 m8 l8 copy-right">
-            Copyright © 2019 zhangcheng All Rights Reserved.
-            
-                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">296.4k</span>
-            
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/03/25/ruan-jian-she-ji/ps/p-zhu-ce-biao-qing-chu/">Ps注册表清除</a>
+    </h1>
+  
 
-            
-			
-                <br>
-                
-                <span id="busuanzi_container_site_pv">
-                    <i class="fa fa-heart-o"></i>
-                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
-                </span>
-                
-                
-                <span id="busuanzi_container_site_uv">
-                    <i class="fa fa-users"></i>
-                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
-                </span>
-                
-            
-        </div>
-        <div class="col s12 m4 l4 social-link social-statis">
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="ps注册表清除两种方法"><a href="#ps注册表清除两种方法" class="headerlink" title="ps注册表清除两种方法"></a>ps注册表清除两种方法</h1><h2 id="方法一："><a href="#方法一：" class="headerlink" title="方法一："></a>方法一：</h2><hr>
+<p>1.运行 regedit 打开注册表编辑器。<br>2.依次展开HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager目录，找到其中的 PendingFileRenameOperations 项目，直接右键，选择“删除”即可。<br>3.删除C:\Program Files\Common Files\Adobe目录即可</p>
+<p>4.清除成功后，别忘记了重启下电脑，这步是不可或缺的哦！</p>
+<pre><code>实在不行看我这里
+</code></pre><h1 id="方法二："><a href="#方法二：" class="headerlink" title="方法二："></a>方法二：</h1><hr>
+<p>下载软件Adobe_Creative_Cloud_Cleaner_Tool并解压，找到文件夹中的如图安装包，点击进行安装。</p>
+<blockquote>
+<p>Adobe官方卸载工具：</p>
+</blockquote>
+<blockquote>
+<p>下载地址：<a href="http://www.yishimei.cn/download/AdobeCreativeCloudCleanerTool.exe" target="_blank" rel="noopener">http://www.yishimei.cn/download/AdobeCreativeCloudCleanerTool.exe</a></p>
+</blockquote>
+<p>1.打开后我们可以看到类似于命令提示符的操作界面，我们输入“e”选择英文界面。</p>
+<p>2.按下回车键后，回复“y”确认同意以上消息。</p>
+<p>3.在弹出的界面中显示出已经安装的相应版本信息，回复相应数字选中相应版本。</p>
+<p>4.这里我选择1,如果安装了其他的adobe软件最好注意下,回车后,显示1.clean all,回复1确认清空所有消息。</p>
+<p>5.系统显示确认信息，回复 y 确认删除，稍等片刻即可清除注册表信息。</p>
+<p>6.清除成功后，别忘记了重启下电脑，这步是不可或缺的！</p>
 
-    <a href="https://weibo.com/u/6420410379?is_all=1" class="tooltipped" target="_blank" data-tooltip="我的微博" data-position="top" data-delay="50">
-        <i class="fa fa-weibo"></i>
-    </a>
-
-
-
-
-
-    <a href="mailto:2508723631@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fa fa-envelope-open"></i>
-    </a>
-
-
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2508723631" class="tooltipped" data-tooltip="QQ联系我: 2508723631" data-position="top" data-delay="50">
-        <i class="fa fa-qq"></i>
-    </a>
-
-
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fa fa-rss"></i>
-    </a>
-    <!--
-        Facebook: fa-facebook
-        Twitter: fa-twitter
-        Google-plus: fa-google-plus
-        Linkedin: fa-linkedin
-        Tumblr: fa-tumblr
-        Medium: fa-medium
-        Slack: fa-slack
-        新浪微博: fa-weibo
-        微信: fa-wechat
-     -->
-</div>
+      
     </div>
-    <!-- 音乐播放器
-2019-03-16 13:12:12
-无风不起浪_你的歌单分享「我喜欢的音乐」: http://music.163.com/playlist/2531704188/604884741/?userid=604884741 (来自@网易云音乐)
--->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-<style>.aplayer-list-index,.aplayer-list-title,.aplayer-list-author,.aplayer .aplayer-lrc p{background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.85, #ff2), color-stop(1, #f22));
-    color: transparent;
-    -webkit-background-clip: text;
-    cursor: pointer;}
-    .aplayer .aplayer-lrc p {
-    font-size:16px;
-    transition: all .5s ease-out;
-    opacity: .4;
-    overflow: hidden;
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/03/25/ruan-jian-she-ji/ps/p-zhu-ce-biao-qing-chu/" data-id="ckg0roia700dd0sjur6s3st1m" class="article-share-link">分享</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ps/">ps</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/设计类/">设计类</a></li></ul>
 
-} </style>
-<div class="aplayer" data-id="2531704188" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.9"></div>
-<script>var meting_api='http://api.mizore.cn/meting/api.php?server=:server&type=:type&id=:id'</script>
-<script src="http://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
-<script src="http://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
-<!-- end音乐播放器-->
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+  <nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/page/6/">&laquo; 上一页</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/page/8/">8</a><a class="page-number" href="/page/9/">9</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/8/">下一页 &raquo;</a>
+  </nav>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Markdown/">Markdown</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/html/">html</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端/">前端</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/搭建/">搭建</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/网站服务器与虚拟主机/">网站服务器与虚拟主机</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/设计/">设计</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/软件工具/">软件工具</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/AI/">AI</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CPU缓存/">CPU缓存</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Css/">Css</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Css3/">Css3</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/DevOps/">DevOps</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/">Git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitLab-CI/">GitLab CI</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Jenkins/">Jenkins</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/">Markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Vue/">Vue</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/css3/">css3</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/html/">html</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/html5/">html5</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js/">js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/php/">php</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ps/">ps</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/虚拟主机/">虚拟主机</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/设置/">设置</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/设计类/">设计类</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/AI/" style="font-size: 10px;">AI</a> <a href="/tags/CPU缓存/" style="font-size: 10px;">CPU缓存</a> <a href="/tags/Css/" style="font-size: 10px;">Css</a> <a href="/tags/Css3/" style="font-size: 10px;">Css3</a> <a href="/tags/DevOps/" style="font-size: 10px;">DevOps</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/GitLab-CI/" style="font-size: 10px;">GitLab CI</a> <a href="/tags/Jenkins/" style="font-size: 10px;">Jenkins</a> <a href="/tags/Linux/" style="font-size: 17.5px;">Linux</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/Vue/" style="font-size: 10px;">Vue</a> <a href="/tags/css3/" style="font-size: 15px;">css3</a> <a href="/tags/html/" style="font-size: 17.5px;">html</a> <a href="/tags/html5/" style="font-size: 17.5px;">html5</a> <a href="/tags/js/" style="font-size: 10px;">js</a> <a href="/tags/php/" style="font-size: 12.5px;">php</a> <a href="/tags/ps/" style="font-size: 15px;">ps</a> <a href="/tags/虚拟主机/" style="font-size: 10px;">虚拟主机</a> <a href="/tags/设置/" style="font-size: 20px;">设置</a> <a href="/tags/设计类/" style="font-size: 17.5px;">设计类</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">十月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">六月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">五月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">四月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">三月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">十一月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">十月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">九月 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/10/08/da-jian/kuai-su-she-zhi-ma-yun/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/15/hou-duan/php/php-de-wen-jian-ming-ling/">php的文件命令.md</a>
+          </li>
+        
+          <li>
+            <a href="/2019/05/17/da-jian/mian-fei-da-jian-wang-zhan-de-xu-ni-kong-jian-zhu-ji/">网站建设</a>
+          </li>
+        
+          <li>
+            <a href="/2019/04/17/ruan-jian-she-ji/ai/ai-ji-chu-shi-pin/">AI基础视频课程</a>
+          </li>
+        
+          <li>
+            <a href="/2019/04/08/qian-duan/html5-css3/css-ji-chu-ji-xuan-ze-qi-chang-yong-shu-xing/">css基础及选择器常用属性.md</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy;2018- 2020 Zhangcheng<br>
+      Powered by <a href="/" target="_blank">张成的博客 </a>
+    </div>
+  </div>
+
+
+
 </footer>
-<script>
-    // <!--百度收录自动推送-->
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+ <!-- 音乐播放器
+    2019-03-16 13:12:12
+    无风不起浪_你的歌单分享「我喜欢的音乐」: http://music.163.com/playlist/2531704188/604884741/?userid=604884741 (来自@网易云音乐)
+    -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+    <style>.aplayer-list-index,.aplayer-list-title,.aplayer-list-author,.aplayer .aplayer-lrc p{background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.85, #ff2), color-stop(1, #f22));
+        color: transparent;
+        -webkit-background-clip: text;
+        cursor: pointer;}
+        .aplayer .aplayer-lrc p {
+        font-size:16px;
+        transition: all .5s ease-out;
+        opacity: .4;
+        overflow: hidden;
+    
+    } </style>
+    <div class="aplayer" data-id="2531704188" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.9"></div>
+    <script>var meting_api='http://api.mizore.cn/meting/api.php?server=:server&type=:type&id=:id'</script>
+    <script src="http://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+    
+    
+     <!-- 版权信息 -->
+    <script>
+       if(window.console&&window.console.log){
+                //Unicode编码转换工bai具转化du成中文汉字 http://unicode.cha001.com/
+        console.log(" %c \u5f20\u6210\u7684\u535a\u5ba2--->>> %c http://13469940053.github.io  \n", "color: #000000;font-size:50px; background: #abcdef; padding:5px 5px; border-radius:5px; border-radius: 5px;", "background: #fadfa3; padding:5px 0;font-size:50px;");
+        console.log('\u4f5c\u8005\uff1a\u65e0\u98ce\u4e0d\u8d77\u6d6a\u0040\u4f60\uff0c\u0051\u0051\uff1a\u0032\u0033\u0035\u0038\u0039\u0033\u0035\u0035\u0037\u0039');
+        console.log("%c\u539f\u521b\u4f5c\u54c1\u8bf7\u5c0a\u91cd\u4f5c\u8005\u52b3\u52a8\u6210\u679c\uff0c\u52ff\u5012\u5356\u5206\u4eab\uff0c\u8c22\u8c22\uff01","color:red");
     }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-//360自动提交连接-->
- (function(){
-        var src = (document.location.protocol == 'http:') ? 'http://js.passport.qihucdn.com/11.0.1.js?d4d9f371abe1a3935500b5aaf98e676d':'https://jspassport.ssl.qhimg.com/11.0.1.js?d4d9f371abe1a3935500b5aaf98e676d';
-        document.write('<script src=' + src + ' id='sozz'><\/script>');
-        })();
-  //360自动提交连接-->
-(function(){
-   var src = document.location.protocol +'//js.passport.qihucdn.com/11.0.1.js?0cafbe109ab248eb7be06d7f99c4009f';
-   document.write('<script src="' + src + '" id="sozz"><\/script>');
-})();
-
-    // <!--百度收录自动推送-->
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-
-//百度推送优化版
+    </script>
+    
+    
+    
+    <script>
+        // <!--百度收录自动推送-->
     (function(){
-        var canonicalURL, curProtocol;
-        //Get the <link> tag
-        var x=document.getElementsByTagName("link");
-        //Find the last canonical URL
-        if(x.length > 0){
-            for (i=0;i<x.length;i++){
-                if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){
-                    canonicalURL=x[i].href;
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    //360自动提交连接-->
+     (function(){
+            var src = (document.location.protocol == 'http:') ? 'http://js.passport.qihucdn.com/11.0.1.js?d4d9f371abe1a3935500b5aaf98e676d':'https://jspassport.ssl.qhimg.com/11.0.1.js?d4d9f371abe1a3935500b5aaf98e676d';
+            document.write('<script src=' + src + ' id='sozz'><\/script>');
+            })();
+      //360自动提交连接-->
+    (function(){
+       var src = document.location.protocol +'//js.passport.qihucdn.com/11.0.1.js?0cafbe109ab248eb7be06d7f99c4009f';
+       document.write('<script src="' + src + '" id="sozz"><\/script>');
+    })();
+    
+        // <!--百度收录自动推送-->
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    
+    //百度推送优化版
+        (function(){
+            var canonicalURL, curProtocol;
+            //Get the <link> tag
+            var x=document.getElementsByTagName("link");
+            //Find the last canonical URL
+            if(x.length > 0){
+                for (i=0;i<x.length;i++){
+                    if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){
+                        canonicalURL=x[i].href;
+                    }
                 }
             }
-        }
-        //Get protocol
-        if (!canonicalURL){
-            curProtocol = window.location.protocol.split(':')[0];
-        }
-        else{
-            curProtocol = canonicalURL.split(':')[0];
-        }
-        //Get current URL if the canonical URL does not exist
-        if (!canonicalURL) canonicalURL = window.location.href;
-        //Assign script content. Replace current URL with the canonical URL
-        !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=canonicalURL,t=document.referrer;if(!e.test(r)){var n=(String(curProtocol).toLowerCase() === 'https')?"https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif":"//api.share.baidu.com/s.gif";t?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var i=new Image;i.src=n}}(window);})();
-</script>
-
-
-<div class="progress-bar"></div>
-
-
-<!-- 搜索遮罩框 -->
-<div id="searchModal" class="modal">
-    <div class="modal-content">
-        <div class="search-header">
-            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input">
-        </div>
-        <div id="searchResult"></div>
+            //Get protocol
+            if (!canonicalURL){
+                curProtocol = window.location.protocol.split(':')[0];
+            }
+            else{
+                curProtocol = canonicalURL.split(':')[0];
+            }
+            //Get current URL if the canonical URL does not exist
+            if (!canonicalURL) canonicalURL = window.location.href;
+            //Assign script content. Replace current URL with the canonical URL
+            !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=canonicalURL,t=document.referrer;if(!e.test(r)){var n=(String(curProtocol).toLowerCase() === 'https')?"https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif":"//api.share.baidu.com/s.gif";t?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var i=new Image;i.src=n}}(window);})();
+    
+    
+    </script>
+    
+    
     </div>
-</div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">主页</a>
+  
+    <a href="/archives" class="mobile-nav-link">分类</a>
+  
+    <a href="/about" class="mobile-nav-link">关于我</a>
+  
+    <a href="/webcode" class="mobile-nav-link">留言板</a>
+  
+</nav>
+    
 
-<script src="/js/search.js"></script>
-<script type="text/javascript">
-$(function () {
-    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
-});
-</script>
-<!-- 回到顶部按钮 -->
-<div id="backTop" class="top-scroll">
-    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
-        <i class="fa fa-angle-up"></i>
-
-    </a>
-</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
-<script src="/libs/materialize/materialize.min.js"></script>
-<script src="/libs/masonry/masonry.pkgd.min.js"></script>
-<script src="/libs/aos/aos.js"></script>
-<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
-<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
-<script src="/js/matery.js"></script>
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script src="/js/script.js"></script>
 
 
 
-    <script src="/libs/others/clicklove.js"></script>
-
-
-    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
-
-
+  </div>
 </body>
 </html>

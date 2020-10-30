@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/webcode/index.html</loc>
+    
+    <lastmod>2020-10-30T06:23:21.668Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2020-10-30T06:22:50.900Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/friends/index.html</loc>
+    
+    <lastmod>2020-10-30T06:21:44.893Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/03/27/qian-duan/css/css3-xin-zeng-xuan-ze-qi/</loc>
     
     <lastmod>2019-06-26T08:03:45.947Z</lastmod>
@@ -19,13 +40,6 @@
     <loc>http://yoursite.com/2019/06/15/hou-duan/php/php-de-wen-jian-ming-ling/</loc>
     
     <lastmod>2019-06-15T05:30:37.183Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/webcode/index.html</loc>
-    
-    <lastmod>2019-06-13T04:57:01.273Z</lastmod>
     
   </url>
   
@@ -72,104 +86,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/02/04/20162017/2016-11-10-objective-c-runtime-xiang-jie/</loc>
-    
-    <lastmod>2019-04-06T17:35:20.596Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/01/06/20162017/2016-01-06-reactivecocoa-jin-jie/</loc>
-    
-    <lastmod>2019-04-06T17:19:47.049Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/30/qian-duan/javascript/nodejs/http-mo-kuai/</loc>
-    
-    <lastmod>2019-04-06T17:15:55.056Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/13/qian-duan/javascript/0-javascript-jian-jie/0.3-zai-html-zhong-shi-yong-javascript/</loc>
-    
-    <lastmod>2019-04-06T17:09:34.204Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/13/qian-duan/javascript/0-javascript-jian-jie/0.2-javascript-shi-shi-me/</loc>
-    
-    <lastmod>2019-04-06T17:09:21.696Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/13/qian-duan/javascript/0-javascript-jian-jie/0.1-javascript-jian-shi/</loc>
-    
-    <lastmod>2019-04-06T17:09:01.938Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/14/qian-duan/javascript/1-ji-ben-gai-nian/1.5-shu-ju-lei-xing/</loc>
-    
-    <lastmod>2019-04-06T17:08:16.958Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/14/qian-duan/javascript/1-ji-ben-gai-nian/1.4-bian-liang-he-zuo-yong-yu/</loc>
-    
-    <lastmod>2019-04-06T17:07:56.761Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/14/qian-duan/javascript/1-ji-ben-gai-nian/1.3-yu-ju/</loc>
-    
-    <lastmod>2019-04-06T17:07:45.238Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/14/qian-duan/javascript/1-ji-ben-gai-nian/1.2-cao-zuo-fu/</loc>
-    
-    <lastmod>2019-04-06T17:07:27.737Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/14/qian-duan/javascript/1-ji-ben-gai-nian/1.1-ji-ben-yu-fa/</loc>
-    
-    <lastmod>2019-04-06T17:07:07.389Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/30/qian-duan/javascript/es6/1-let-const-ming-ling/</loc>
-    
-    <lastmod>2019-04-06T17:06:30.896Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/14/qian-duan/javascript/javascript-ji-chu-jiao-cheng/</loc>
-    
-    <lastmod>2019-04-06T17:06:23.680Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/30/qian-duan/javascript/2-yin-yong-lei-xing/2-5-function-lei-xing/</loc>
-    
-    <lastmod>2019-04-06T17:06:02.427Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2019/04/03/hou-duan/php/ru-men-di-yi-tian/</loc>
     
     <lastmod>2019-04-06T17:05:27.905Z</lastmod>
@@ -177,86 +93,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/10/30/qian-duan/javascript/2-yin-yong-lei-xing/2-4-regexp-lei-xing/</loc>
-    
-    <lastmod>2019-04-06T17:02:38.131Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/30/qian-duan/javascript/2-yin-yong-lei-xing/2-3-date-lei-xing/</loc>
-    
-    <lastmod>2019-04-06T16:57:01.134Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/30/qian-duan/javascript/2-yin-yong-lei-xing/2-2-array-lei-xing/</loc>
-    
-    <lastmod>2019-04-06T16:56:50.665Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/30/qian-duan/javascript/2-yin-yong-lei-xing/2-1-object-lei-xing/</loc>
-    
-    <lastmod>2019-04-06T16:56:36.467Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/30/qian-duan/javascript/nodejs/npm/</loc>
-    
-    <lastmod>2019-04-06T16:55:29.703Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/30/qian-duan/javascript/nodejs/nodejs-jian-jie/</loc>
-    
-    <lastmod>2019-04-06T16:54:21.992Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/03/27/qian-duan/javascript/javascript-zi-ding-jquery-yuan-su-huo-qu-yuan-su-de-fang-shi/</loc>
-    
-    <lastmod>2019-04-06T16:53:07.477Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/30/qian-duan/javascript/javascript-zhi-zai-xue-xi/</loc>
-    
-    <lastmod>2019-04-06T16:49:14.999Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/08/qian-duan/javascript/qing-liang-ji-gun-dong-dong-hua-javascript-ku-aos.js/</loc>
-    
-    <lastmod>2019-04-06T16:49:02.333Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/06/qian-duan/javascript/quan-gong-neng-javascript-deng-xiang-hua-lang-cha-jian-lightgallery.js/</loc>
-    
-    <lastmod>2019-04-06T16:48:52.653Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2019/04/02/qian-duan/html/html-dai-ma-kuai/</loc>
     
     <lastmod>2019-04-02T12:14:07.470Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/03/30/hou-duan/java/commons/zi-liao/</loc>
-    
-    <lastmod>2019-03-30T06:21:01.234Z</lastmod>
     
   </url>
   
@@ -282,7 +121,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/06/12/da-jian/kuai-su-she-zhi-ma-yun/</loc>
+    <loc>http://yoursite.com/2020/10/08/da-jian/kuai-su-she-zhi-ma-yun/</loc>
     
     <lastmod>2019-03-29T18:23:46.039Z</lastmod>
     
@@ -310,30 +149,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/11/24/hou-duan/ruan-jian-cheng-xu-she-ji-yuan-ze/</loc>
-    
-    <lastmod>2019-03-25T09:48:57.609Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/24/hou-duan/java/java-ji-he-kuang-jia-zhi-shi-zheng-li/</loc>
-    
-    <lastmod>2019-03-25T09:48:54.780Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2019/03/16/ruan-jian-she-ji/ps/ps-kuai-jie-jian/</loc>
     
     <lastmod>2019-03-25T09:24:30.608Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/03/02/hou-duan/spring/springboot2.x-dan-yuan-ce-shi/</loc>
-    
-    <lastmod>2019-03-24T11:16:23.145Z</lastmod>
     
   </url>
   
@@ -345,34 +163,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/02/14/hou-duan/java/java-dai-ma-xing-neng-ping-gu-ku-stalker-jie-shao/</loc>
-    
-    <lastmod>2019-03-24T11:06:04.034Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/01/25/hou-duan/java/yi-ge-ji-jian-de-java-ascii-biao-ge-sheng-cheng-ku/</loc>
-    
-    <lastmod>2019-03-24T11:05:47.807Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/friends/index.html</loc>
-    
-    <lastmod>2019-03-24T05:12:39.911Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/02/04/20162017/2016-11-18-objective-c-runtime-ji-ben-shi-yong/</loc>
-    
-    <lastmod>2019-03-22T18:59:19.299Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2019/03/21/qian-duan/html/html/</loc>
     
     <lastmod>2019-03-21T19:04:31.625Z</lastmod>
@@ -380,7 +170,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/03/13/da-jian/hello-world/</loc>
+    <loc>http://yoursite.com/2019/03/13/hello-world/</loc>
     
     <lastmod>2019-03-21T18:42:55.772Z</lastmod>
     
@@ -390,13 +180,6 @@
     <loc>http://yoursite.com/2019/03/15/da-jian/yu-ming-bang-ding/</loc>
     
     <lastmod>2019-03-16T10:28:46.821Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2019-03-14T09:06:46.355Z</lastmod>
     
   </url>
   
@@ -415,13 +198,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/10/22/hou-duan/uml-ge-lei-guan-xi-jie-shao/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2018/11/18/ruan-jian-gong-ju/cpu-duo-ji-huan-cun/</loc>
     
     <lastmod>2019-03-02T09:49:57.000Z</lastmod>
@@ -429,140 +205,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/09/25/shu-ju-ku/postgresql-ji-chu-zhi-shi-zheng-li/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/05/bian-cheng-zhi-dao/google-java-bian-cheng-feng-ge-zhi-nan/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/21/bian-cheng-zhi-dao/mian-xiang-dui-xiang-bian-cheng-de-li-jie/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/15/bian-cheng-zhi-dao/dai-ma-zheng-ji-zhi-dao-nei-rong-gai-yao/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/13/hou-duan/java/java-8-zhong-guan-yu-ri-qi-he-shi-jian-api-de-20-ge-shi-yong-shi-li/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/11/05/hou-duan/java/java-io-zhi-shi-zheng-li/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/11/09/hou-duan/java/java5-xin-te-xing-ji-shi-yong/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/11/13/hou-duan/java/java8-xin-te-xing-ji-shi-yong-yi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/11/12/hou-duan/java/java7-xin-te-xing-ji-shi-yong/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/11/14/hou-duan/java/java8-xin-te-xing-ji-shi-yong-er/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/11/07/hou-duan/java/java-fan-she-ji-chu/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/11/11/hou-duan/java/java6-xin-te-xing-ji-shi-yong/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/28/hou-duan/java/java-yi-chang-zhi-shi-hui-zong/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/11/08/hou-duan/java/java-zhu-jie-de-li-jie-he-ying-yong/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/19/hou-duan/java/mvel2.x-mo-ban-zhi-nan/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/18/hou-duan/java/mvel2.x-yu-fa-zhi-nan/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/27/hou-duan/java/ni-xu-yao-zhi-dao-de-java-mei-ju-zhi-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/01/hou-duan/java/shi-yong-java-diao-yong-phantomjs-dong-tai-dao-chu-echarts-tu-pian-dao-word-wen-jian-zhong/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/11/15/hou-duan/java/dan-yuan-ce-shi-zhi-nan/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/17/hou-duan/spring/spring-ji-chu-jie-shao/</loc>
+    <loc>http://yoursite.com/2018/10/13/ruan-jian-gong-ju/linux/chang-yong-bash-ming-ling-zheng-li-zhi-qi-ta-chang-yong-ming-ling/</loc>
     
     <lastmod>2019-03-02T09:49:57.000Z</lastmod>
     
@@ -570,20 +213,6 @@
   
   <url>
     <loc>http://yoursite.com/2018/09/24/ruan-jian-gong-ju/git/git-zhi-shi-dian-zheng-li/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/11/22/ruan-jian-gong-ju/devops/gitlab-ci-jie-shao-he-shi-yong/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/13/ruan-jian-gong-ju/linux/chang-yong-bash-ming-ling-zheng-li-zhi-qi-ta-chang-yong-ming-ling/</loc>
     
     <lastmod>2019-03-02T09:49:57.000Z</lastmod>
     
@@ -611,126 +240,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/10/17/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-zhong-jie-zhe-mo-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/18/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-wai-guan-mo-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/16/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-ming-ling-mo-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/29/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-dan-li-mo-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/20/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-dai-li-mo-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/14/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-gong-han-fang-fa-mo-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/20/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-jian-zao-zhe-mo-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/21/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-zhuang-tai-mo-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/12/19/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-qiao-jie-mo-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/14/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-ce-lue-mo-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/11/04/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-ze-ren-lian-mo-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/12/12/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-gua-pei-qi-mo-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/14/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-zhuang-shi-mo-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/14/hou-duan/java/java-mian-xiang-dui-xiang/java-mian-xiang-dui-xiang-she-ji-zhi-guan-cha-zhe-mo-shi/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/29/hou-duan/java/commons/apache-commons-lang-zhi-ri-qi-shi-jian-gong-ju-lei/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/27/hou-duan/java/commons/apache-commons-lang-zhi-stringutils/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/13/hou-duan/java/commons/commons-collections-bao-he-jian-jie/</loc>
-    
-    <lastmod>2019-03-02T09:49:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/09/28/hou-duan/java/commons/apache-commons-lang-zhi-arrayutils/</loc>
+    <loc>http://yoursite.com/2018/11/22/ruan-jian-gong-ju/devops/gitlab-ci-jie-shao-he-shi-yong/</loc>
     
     <lastmod>2019-03-02T09:49:57.000Z</lastmod>
     
@@ -747,272 +257,6 @@
     <loc>http://yoursite.com/lab/index.html</loc>
     
     <lastmod>2019-02-22T05:38:48.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/10/10/20162017/2016-10-10-ios-shou-shi-yu-bian-xing/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/10/18/20162017/2016-10-18-xcode-debug-da-quan/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/10/26/20162017/2016-10-26-json-zhuan-mo-xing-for-yymodel/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/12/21/20162017/2016-12-21-objective-c-category/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/11/28/20162017/2016-11-28-objective-c-runloop/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/12/26/20162017/2016-12-26-reactivecocoa-ji-chu/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/02/15/20162017/2017-02-15-git-zhi-ling-zheng-li/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/02/16/20162017/2017-02-16-git-dai-ma-hui-gun/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/02/22/20162017/2017-02-22-shi-yong.gitignore-hu-lue-git-cang-ku-zhong-de-wen-jian/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/03/01/20162017/2017-03-01-xcode-kong-zhi-tai-shu-chu-zhong-wen/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/03/06/20162017/2017-03-06-swift-dai-li-mo-shi/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/03/08/20162017/2017-03-08-cocoapods-gong-you-cang-ku-de-chuang-jian/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/03/10/20162017/2017-03-10-cocoapods-si-you-cang-ku-de-chuang-jian/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/03/30/20162017/2017-03-30-swift-3.1-de-xin-bian-hua-yi/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/04/07/20162017/2017-04-07-qiang-hua-swift-zhong-de-print/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/03/23/20162017/2017-03-23-asyncdisplaykit-2.0-jiao-cheng-ru-men-yi/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/04/13/20162017/2017-04-13-cocoapods-an-zhuang-he-shi-yong/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/04/28/20162017/2017-04-28-rvm-shi-yong-zhi-nan/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/05/04/20162017/2017-05-04-r.swift-de-shi-yong/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/05/03/20162017/2017-05-03-swift-de-lan-jia-zai-he-ji-suan-xing-shu-xing/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/06/19/20162017/2017-06-19-kuai-su-pei-zhi-zsh/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/05/05/20162017/2017-05-05-zai-swift-zhong-shi-yong-ibinspectable/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/07/04/20162017/2017-07-04-xcode9-wu-xian-diao-shi-gong-neng/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/07/26/20162017/2017-07-26-li-yong-debug-memory-graph-jian-ce-nei-ce-xie-lou/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/07/19/20162017/2017-07-19-swift-de-hmac-he-sha1-jia-mi/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/09/11/20162017/2017-09-11-swift-4-xin-te-xing/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/10/04/20162017/2017-10-04-gcd-zai-swift-zhong-de-yong-fa/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/03/07/20162017/2017-3-07-wen-jian-mu-lu-shu-zhuang-tree-xian-shi/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/12/19/20162017/2017-12-19-wei-bo-ke-tian-jia-gitalk-ping-lun-cha-jian/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/02/19/20162017/2018-02-19-visual-studio-2017-pei-zhi-opencv-3-3-jiao-cheng/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/02/19/20162017/2018-02-19-ren-lian-shi-bie-dai-ma-ji-yu-opencv/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/02/22/20162017/2018-02-22-python-pa-chong-shi-zhan-yi-pixabay-tu-pian-xia-zai-qi/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/02/21/20162017/2018-02-21-jiao-ni-ru-he-zhi-zuo-lang-man-de-biao-bai-wang-zhan/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/02/20/20162017/2018-02-20-ru-he-chuang-jian-shu-yu-zi-ji-de-yu-ming-you-xiang/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/02/24/20162017/2018-02-24-python-pa-chong-shi-zhan-er-bai-du-tu-pian-xia-zai-qi/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/02/25/20162017/2018-02-25-github-pages-huo-ge-ren-yu-ming-shi-xian-https-fang-wen/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/03/09/20162017/2018-03-09-python-pa-chong-shi-zhan-san-wei-xin-wen-zhang-pa-chong/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/03/27/20162017/2018-03-27-zhong-wen-fen-ci-yuan-li-ji-chang-yong-python-zhong-wen-fen-ci-ku-jie-shao/</loc>
-    
-    <lastmod>2018-12-12T14:51:20.000Z</lastmod>
     
   </url>
   

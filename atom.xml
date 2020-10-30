@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-06-15T05:30:37.183Z</updated>
+  <updated>2019-03-29T18:23:46.039Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2020/10/08/da-jian/kuai-su-she-zhi-ma-yun/"/>
+    <id>http://yoursite.com/2020/10/08/da-jian/kuai-su-she-zhi-ma-yun/</id>
+    <published>2020-10-08T10:59:18.042Z</published>
+    <updated>2019-03-29T18:23:46.039Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;快速设置— 如果你知道该怎么操作，直接使用下面的地址&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gitee.com/zhangcheng0126/index.git&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>php的文件命令.md</title>
@@ -42,29 +65,6 @@
     
     
       <category term="php" scheme="http://yoursite.com/tags/php/"/>
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/06/12/da-jian/kuai-su-she-zhi-ma-yun/"/>
-    <id>http://yoursite.com/2019/06/12/da-jian/kuai-su-she-zhi-ma-yun/</id>
-    <published>2019-06-11T16:31:40.110Z</published>
-    <updated>2019-03-29T18:23:46.039Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;快速设置— 如果你知道该怎么操作，直接使用下面的地址&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://gitee.com/zhangcheng0126/index.git&quot; target=&quot;_blank&quot;
-        
-      
-    
-    </summary>
-    
     
   </entry>
   
@@ -128,35 +128,6 @@
   </entry>
   
   <entry>
-    <title>字体与文本相关属性</title>
-    <link href="http://yoursite.com/2019/04/08/qian-duan/html5-css3/zi-ti-yu-wen-ben-xiang-guan-shu-xing/"/>
-    <id>http://yoursite.com/2019/04/08/qian-duan/html5-css3/zi-ti-yu-wen-ben-xiang-guan-shu-xing/</id>
-    <published>2019-04-08T12:16:14.000Z</published>
-    <updated>2019-04-08T12:54:05.028Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;hr&gt;
-
-        
-      
-    
-    </summary>
-    
-      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="html5" scheme="http://yoursite.com/tags/html5/"/>
-    
-      <category term="css3" scheme="http://yoursite.com/tags/css3/"/>
-    
-  </entry>
-  
-  <entry>
     <title>css基础及选择器常用属性.md</title>
     <link href="http://yoursite.com/2019/04/08/qian-duan/html5-css3/css-ji-chu-ji-xuan-ze-qi-chang-yong-shu-xing/"/>
     <id>http://yoursite.com/2019/04/08/qian-duan/html5-css3/css-ji-chu-ji-xuan-ze-qi-chang-yong-shu-xing/</id>
@@ -176,6 +147,35 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt; 
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="html5" scheme="http://yoursite.com/tags/html5/"/>
+    
+      <category term="css3" scheme="http://yoursite.com/tags/css3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>字体与文本相关属性</title>
+    <link href="http://yoursite.com/2019/04/08/qian-duan/html5-css3/zi-ti-yu-wen-ben-xiang-guan-shu-xing/"/>
+    <id>http://yoursite.com/2019/04/08/qian-duan/html5-css3/zi-ti-yu-wen-ben-xiang-guan-shu-xing/</id>
+    <published>2019-04-08T12:16:14.000Z</published>
+    <updated>2019-04-08T12:54:05.028Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+
         
       
     
@@ -278,34 +278,6 @@
   </entry>
   
   <entry>
-    <title>Javaweb 资料整理</title>
-    <link href="http://yoursite.com/2019/03/30/hou-duan/java/commons/zi-liao/"/>
-    <id>http://yoursite.com/2019/03/30/hou-duan/java/commons/zi-liao/</id>
-    <published>2019-03-30T06:46:00.000Z</published>
-    <updated>2019-03-30T06:21:01.234Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;开发工具链接：http-pan-baidu-com-s-1gfcpDC3-密码：dp5s&quot;&gt;&lt;a href=&quot;#开发工具链接：http-pan-baidu-com-s-1gfcpDC3-密码：dp5s&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="后端" scheme="http://yoursite.com/categories/%E5%90%8E%E7%AB%AF/"/>
-    
-    
-      <category term="javaweb" scheme="http://yoursite.com/tags/javaweb/"/>
-    
-      <category term="java" scheme="http://yoursite.com/tags/java/"/>
-    
-  </entry>
-  
-  <entry>
     <title>PhotoshopCC2018纯净一键安装版</title>
     <link href="http://yoursite.com/2019/03/29/ruan-jian-she-ji/ps/ps-an-zhuang-chun-jing-ban/"/>
     <id>http://yoursite.com/2019/03/29/ruan-jian-she-ji/ps/ps-an-zhuang-chun-jing-ban/</id>
@@ -363,32 +335,6 @@
   </entry>
   
   <entry>
-    <title>CSS3新增选择器</title>
-    <link href="http://yoursite.com/2019/03/27/qian-duan/css/css3-xin-zeng-xuan-ze-qi/"/>
-    <id>http://yoursite.com/2019/03/27/qian-duan/css/css3-xin-zeng-xuan-ze-qi/</id>
-    <published>2019-03-27T14:05:23.000Z</published>
-    <updated>2019-06-26T08:03:45.947Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;section class=&quot;normal&quot; id=&quot;section-&quot;&gt;&lt;br&gt;&lt;br&gt;                        &lt;h2
-        
-      
-    
-    </summary>
-    
-      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="Css3" scheme="http://yoursite.com/tags/Css3/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Css和css3的一些属性方法</title>
     <link href="http://yoursite.com/2019/03/27/qian-duan/css/css-he-css3-de-yi-xie-shu-xing-fang-fa/"/>
     <id>http://yoursite.com/2019/03/27/qian-duan/css/css-he-css3-de-yi-xie-shu-xing-fang-fa/</id>
@@ -420,11 +366,11 @@
   </entry>
   
   <entry>
-    <title>JavaScript自定的元素</title>
-    <link href="http://yoursite.com/2019/03/27/qian-duan/javascript/javascript-zi-ding-jquery-yuan-su-huo-qu-yuan-su-de-fang-shi/"/>
-    <id>http://yoursite.com/2019/03/27/qian-duan/javascript/javascript-zi-ding-jquery-yuan-su-huo-qu-yuan-su-de-fang-shi/</id>
-    <published>2019-03-27T14:02:23.000Z</published>
-    <updated>2019-04-06T16:53:07.477Z</updated>
+    <title>CSS3新增选择器</title>
+    <link href="http://yoursite.com/2019/03/27/qian-duan/css/css3-xin-zeng-xuan-ze-qi/"/>
+    <id>http://yoursite.com/2019/03/27/qian-duan/css/css3-xin-zeng-xuan-ze-qi/</id>
+    <published>2019-03-27T14:05:23.000Z</published>
+    <updated>2019-06-26T08:03:45.947Z</updated>
     
     <summary type="html">
     
@@ -432,8 +378,7 @@
       
         
         
-          &lt;blockquote&gt;
-&lt;p&gt;1.JavaScript自定jQuery元素$获取元素的方式&lt;br&gt;    var $ = function(selector){&lt;br&gt;        return document.querySelector(selector);&lt;br&gt;  
+          &lt;section class=&quot;normal&quot; id=&quot;section-&quot;&gt;&lt;br&gt;&lt;br&gt;                        &lt;h2
         
       
     
@@ -442,7 +387,7 @@
       <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+      <category term="Css3" scheme="http://yoursite.com/tags/Css3/"/>
     
   </entry>
   
@@ -475,32 +420,6 @@
   </entry>
   
   <entry>
-    <title>HTML  标准</title>
-    <link href="http://yoursite.com/2019/03/21/qian-duan/html/html/"/>
-    <id>http://yoursite.com/2019/03/21/qian-duan/html/html/</id>
-    <published>2019-03-21T12:15:00.000Z</published>
-    <updated>2019-03-21T19:04:31.625Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;HTML-元素属性&quot;&gt;&lt;a href=&quot;#HTML-元素属性&quot; class=&quot;headerlink&quot; title=&quot;HTML 元素属性&quot;&gt;&lt;/a&gt;HTML 元素属性&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;  &amp;lt;!DOCTYPE html&amp;gt;| 声明为
-        
-      
-    
-    </summary>
-    
-      <category term="html" scheme="http://yoursite.com/categories/html/"/>
-    
-    
-      <category term="html" scheme="http://yoursite.com/tags/html/"/>
-    
-  </entry>
-  
-  <entry>
     <title>HTML 速查列表</title>
     <link href="http://yoursite.com/2019/03/21/qian-duan/html/html-lie-biao/"/>
     <id>http://yoursite.com/2019/03/21/qian-duan/html/html-lie-biao/</id>
@@ -514,6 +433,32 @@
         
         
           &lt;h1 id=&quot;HTML-速查列表&quot;&gt;&lt;a href=&quot;#HTML-速查列表&quot; class=&quot;headerlink&quot; title=&quot;HTML 速查列表&quot;&gt;&lt;/a&gt;HTML 速查列表&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.lanzous.com/i3lo13c&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="html" scheme="http://yoursite.com/categories/html/"/>
+    
+    
+      <category term="html" scheme="http://yoursite.com/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML  标准</title>
+    <link href="http://yoursite.com/2019/03/21/qian-duan/html/html/"/>
+    <id>http://yoursite.com/2019/03/21/qian-duan/html/html/</id>
+    <published>2019-03-21T12:15:00.000Z</published>
+    <updated>2019-03-21T19:04:31.625Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;HTML-元素属性&quot;&gt;&lt;a href=&quot;#HTML-元素属性&quot; class=&quot;headerlink&quot; title=&quot;HTML 元素属性&quot;&gt;&lt;/a&gt;HTML 元素属性&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;  &amp;lt;!DOCTYPE html&amp;gt;| 声明为
         
       
     
@@ -577,6 +522,60 @@
       <category term="设计类" scheme="http://yoursite.com/tags/%E8%AE%BE%E8%AE%A1%E7%B1%BB/"/>
     
       <category term="ps" scheme="http://yoursite.com/tags/ps/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>域名绑定</title>
+    <link href="http://yoursite.com/2019/03/15/da-jian/yu-ming-bang-ding/"/>
+    <id>http://yoursite.com/2019/03/15/da-jian/yu-ming-bang-ding/</id>
+    <published>2019-03-15T14:46:11.000Z</published>
+    <updated>2019-03-16T10:28:46.821Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;##1.第一种2情况&lt;br&gt;Your site is ready to be published at 域名&lt;/p&gt;
+&lt;p&gt;检查你的域名解析&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ping
+        
+      
+    
+    </summary>
+    
+      <category term="搭建" scheme="http://yoursite.com/categories/%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="设置" scheme="http://yoursite.com/tags/%E8%AE%BE%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>页面介绍 &lt;Span Style=&#39;color:yellow;font-Weight:bold;&#39;&gt;[加密]&lt;/span&gt;</title>
+    <link href="http://yoursite.com/2019/03/14/da-jian/zui-quan-shi-li/"/>
+    <id>http://yoursite.com/2019/03/14/da-jian/zui-quan-shi-li/</id>
+    <published>2019-03-14T12:32:14.000Z</published>
+    <updated>2019-03-24T11:10:26.531Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Markdown语法规则&quot;&gt;&lt;a href=&quot;#Markdown语法规则&quot; class=&quot;headerlink&quot; title=&quot;Markdown语法规则&quot;&gt;&lt;/a&gt;Markdown语法规则&lt;/h1&gt;&lt;h2 id=&quot;一、斜体、粗体&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Markdown" scheme="http://yoursite.com/categories/Markdown/"/>
+    
+    
+      <category term="设置" scheme="http://yoursite.com/tags/%E8%AE%BE%E7%BD%AE/"/>
     
   </entry>
   
